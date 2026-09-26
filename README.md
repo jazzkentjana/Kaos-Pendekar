@@ -3,7 +3,7 @@
 Public image hosting for Shopee Mass Upload. Shopee pulls each photo from its
 raw link:
 
-    https://raw.githubusercontent.com/jazzkentjana/kaos-pendekar/main/<path>
+    https://raw.githubusercontent.com/jazzkentjana/Kaos-Pendekar/main/<path>
 
 Layout
 - `shared/` — images reused on every listing (size chart)
