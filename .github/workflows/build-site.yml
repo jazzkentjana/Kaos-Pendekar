@@ -1,0 +1,49 @@
+# Rebuilds the website files (site/) whenever shirts are added or changed in listings/.
+# Runs on GitHub's servers, so adding a shirt with the usual Shopee pipeline is enough;
+# pendekarjuara.github.io copies the result at its next hourly run.
+name: Build website
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "listings/**"
+      - "shared/**"
+      - "scripts/build_site.py"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-site
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Pillow
+        run: pip install pillow
+
+      - name: Build site/ from listings/
+        run: python scripts/build_site.py
+
+      - name: Commit the result if anything changed
+        run: |
+          if git diff --quiet -- site; then
+            echo "No website changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site index.html assets/site.js
+          git commit -m "Rebuild website from listings"
+          git pull --rebase origin main
+          git push origin HEAD:main
