@@ -211,6 +211,7 @@
     fitGiant(hoverTitle, it.hook);
     hoverTitle.classList.add("on");
     worldEl.classList.add("has-hover");
+    cursor.querySelector("span").textContent = "Lihat";
     if (!keyboard) cursor.classList.add("on");
   }
   function hideHover() {
@@ -317,6 +318,7 @@
       cards.push(`<figure class="card" style="--top:${11 + (i + 1) * 1.4}vh;--top-m:${14 + (i + 1) * 1.2}vh;translate:${off}vw 0" data-color="${im.color}"><img src="${im.src}" alt="${esc(label)}" loading="lazy" decoding="async"></figure>`);
     });
     pStack.innerHTML = cards.join("");
+    buildDeck(it, mobile);
     setInfo(false);
     pView.hidden = false;
     pView.classList.remove("enter");
@@ -324,9 +326,76 @@
     pView.scrollTop = 0;
     fitGiant(pTitle, it.hook);
     pView.focus({ preventScroll: true });
+    flyDeckIn(S.flown ? 80 : 450);
   }
+
+  // A fan of the other photos flies up from the bottom and waits under the main picture.
+  const pDeck = $("#p-deck");
+  const pCue = $("#p-cue");
+  function buildDeck(it, mobile) {
+    const rest = it.images.slice(1);
+    const n = rest.length, mid = (n - 1) / 2;
+    const step = mobile ? 15 : 9.5;
+    pDeck.innerHTML = rest.map((im, i) => {
+      const k = i - mid;
+      return `<button type="button" data-i="${i + 1}" data-color="${im.color}" aria-label="Foto ${i + 2}"
+        style="--x:${(k * step).toFixed(1)}vw;--y:${(4.5 + Math.abs(k) * 1.6).toFixed(1)}vh;--r:${(k * 5).toFixed(1)}deg">
+        <img src="${im.src}" alt="" decoding="async"></button>`;
+    }).join("");
+    $("#p-cue-text").textContent = `Scroll · ${n} foto lagi`;
+    pDeck.classList.remove("away");
+    pCue.classList.remove("away");
+  }
+  function flyDeckIn(delay) {
+    if (matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    $$("button", pDeck).forEach((b, i) => {
+      b.animate([{ translate: "0 60vh", opacity: 0 }, { translate: "0 0", opacity: 1 }],
+        { duration: 750, delay: delay + i * 85, easing: "cubic-bezier(.2,.9,.25,1.15)", fill: "backwards" });
+    });
+    pCue.animate([{ opacity: 0 }, { opacity: 1 }], { duration: 500, delay: delay + 500, fill: "backwards" });
+  }
+  pDeck.addEventListener("click", (e) => {
+    const b = e.target.closest("button");
+    if (!b) return;
+    e.stopPropagation();
+    const card = $$(".card", pStack)[+b.dataset.i];
+    if (!card) return;
+    pStack.classList.add("measure"); // read the card's place in the flow, ignoring sticky
+    const y = pStack.offsetTop + card.offsetTop;
+    pStack.classList.remove("measure");
+    pView.scrollTo({ top: y - parseFloat(getComputedStyle(card).top) + 2, behavior: "smooth" });
+  });
+  pView.addEventListener("scroll", () => {
+    const away = pView.scrollTop > 24;
+    pDeck.classList.toggle("away", away);
+    pCue.classList.toggle("away", away);
+  }, { passive: true });
+
+  // Clicking outside the frame (as wide as the big title, never narrower than the photo) closes.
+  function outsideFrame(x) {
+    const span = pTitle.firstChild, hero = $(".card.hero", pStack);
+    if (!span || !hero) return false;
+    const a = span.getBoundingClientRect(), b = hero.getBoundingClientRect();
+    return x < Math.min(a.left, b.left) || x > Math.max(a.right, b.right);
+  }
+  const cursorText = $("span", cursor);
+  pView.addEventListener("click", (e) => {
+    if (e.target.closest(".p-bar, .p-info, .p-deck")) return;
+    if (pInfo.classList.contains("open")) { setInfo(false); return; }
+    if (outsideFrame(e.clientX)) closeProduct();
+  });
+  pView.addEventListener("pointermove", (e) => {
+    if (e.pointerType !== "mouse") return;
+    const out = !e.target.closest(".p-bar, .p-info, .p-deck") && !pInfo.classList.contains("open") && outsideFrame(e.clientX);
+    cursorText.textContent = "Tutup";
+    cursor.classList.toggle("on", out);
+    pView.style.cursor = out ? "none" : "";
+  });
+  pView.addEventListener("pointerleave", () => cursor.classList.remove("on"));
   function closeProductView() {
     if (pView.hidden) return;
+    cursor.classList.remove("on");
+    pView.style.cursor = "";
     pView.hidden = true;
     current = null;
     document.title = "Pendekar Juara — Kaos Meme Viral";
@@ -342,6 +411,7 @@
       const cc = card.dataset.color;
       card.classList.toggle("off", c !== "all" && cc !== "all" && cc !== c);
     });
+    $$("button", $("#p-deck")).forEach((b) => b.classList.toggle("off", c !== "all" && b.dataset.color !== c));
   }
   pInfoBtn.addEventListener("click", () => setInfo(!pInfo.classList.contains("open")));
   $("#i-colors").addEventListener("click", (e) => {
@@ -353,7 +423,6 @@
     if (e.key !== "Escape" || pView.hidden) return;
     if (pInfo.classList.contains("open")) setInfo(false); else closeProduct();
   });
-  pStack.addEventListener("click", () => setInfo(false));
   function closeProduct() {
     if (S.internal && history.length > 1) history.back();
     else go("#/");
@@ -549,7 +618,7 @@
     setTimeout(() => { body.classList.remove("loading"); intro.remove(); }, d + 150);
   }
 
-  fetch("site/data.json?v=202610141649")
+  fetch("site/data.json?v=202610141655")
     .then((r) => r.json())
     .then((data) => {
       S.data = data;

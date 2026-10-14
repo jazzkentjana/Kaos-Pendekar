@@ -279,3 +279,30 @@ body.r-list .nav-left::before { content: "← "; }
 @keyframes intro-in { from { opacity: 0; transform: scale(.6) rotate(-14deg); } }
 @keyframes intro-bob { 50% { transform: scale(1.04) rotate(3deg); } }
 body.loading .brand { opacity: 0; }
+
+/* ---------- Product: "more photos" deck + scroll cue ---------- */
+.p-deck { position: fixed; z-index: 4; left: 50%; bottom: 0; width: 0; height: 0; transition: transform .5s cubic-bezier(.7,0,.2,1), opacity .4s; }
+.p-deck.away { transform: translateY(30vh); opacity: 0; pointer-events: none; }
+.p-deck button {
+  position: absolute; left: 0; bottom: 0; width: 13vh; height: 13vh; margin-left: -6.5vh; padding: 0;
+  border: 3px solid #fff; background: #f4f2ef; box-shadow: 0 10px 24px -8px rgba(0,0,0,.4);
+  transform: translate(var(--x), var(--y)) rotate(var(--r)); transition: transform .35s cubic-bezier(.2,.8,.2,1);
+}
+.p-deck button img { width: 100%; height: 100%; object-fit: cover; }
+.p-deck button:hover { transform: translate(var(--x), calc(var(--y) - 4vh)) rotate(0deg) scale(1.08); z-index: 2; }
+.p-deck button.off { display: none; }
+.p-cue {
+  position: fixed; z-index: 5; right: 30px; top: 50%; transform: translateY(-50%);
+  display: flex; flex-direction: column; align-items: center; gap: 10px; pointer-events: none;
+  font-size: 11px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--accent);
+  writing-mode: vertical-rl; transition: opacity .3s;
+}
+.p-cue i { position: relative; width: 1.5px; height: 64px; background: rgba(234,91,31,.25); overflow: hidden; }
+.p-cue i::after { content: ""; position: absolute; left: 0; top: -40%; width: 100%; height: 40%; background: var(--accent); animation: cue 1.4s cubic-bezier(.6,0,.3,1) infinite; }
+@keyframes cue { to { top: 100%; } }
+.p-cue.away { opacity: 0; }
+@media (max-width: 767px) {
+  .p-deck button { width: 11vh; height: 11vh; margin-left: -5.5vh; }
+  .p-cue { right: 10px; }
+}
+.p-stack.measure .card { position: relative !important; top: 0 !important; }
