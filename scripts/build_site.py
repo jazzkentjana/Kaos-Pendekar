@@ -59,7 +59,7 @@ def fresh(src, dst):
 def main():
     rows = list(csv.DictReader(open(os.path.join(LIST, "log.csv"), encoding="utf-8")))
     items = []
-    for r in rows:
+    for idx, r in enumerate(rows):
         if r.get("status", "").strip().lower() != "live":
             continue
         slug = r["slug"].strip()
@@ -88,6 +88,7 @@ def main():
 
         items.append({
             "slug": slug,
+            "_order": idx,  # later rows in log.csv are newer within the same day
             "date": r["date"].strip(),
             "hook": r["hook"].strip(),
             "topic": r["topic"].strip(),
@@ -97,7 +98,13 @@ def main():
             "images": images,
         })
 
-    items.sort(key=lambda x: x["date"], reverse=True)
+    items.sort(key=lambda x: (x["date"], x.pop("_order")), reverse=True)
+    # "BARU": the newest 5, or the whole latest upload day if that batch is bigger
+    if items:
+        latest_batch = sum(1 for x in items if x["date"] == items[0]["date"])
+        n_new = max(5, latest_batch)
+        for i, x in enumerate(items):
+            x["isNew"] = i < n_new
     data = {
         "shop": "https://shopee.co.id/shop/269698445",
         "prices": [{"sizes": "S–XL", "price": 89000}, {"sizes": "XXL–XXXL", "price": 99000}],

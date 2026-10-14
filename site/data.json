@@ -21,160 +21,386 @@
  "sizeChart": "shared/size-chart-1280.jpg",
  "items": [
   {
-   "slug": "how-to-scare-an-introvert",
+   "slug": "ndasmu-etik",
    "date": "2026-10-10",
-   "hook": "HOW TO SCARE AN INTROVERT",
-   "topic": "Komik 4 panel hantu bilang boo ke introvert, how to scare an introvert",
+   "hook": "NDASMU ETIK",
+   "topic": "Ungkapan Jawa ndasmu etik yang viral di pidato politik",
    "lines": [
-    "How to scare an introvert",
-    "Boo",
-    "Boo",
-    "Boo?",
-    "I invited some friends over, hope that's ok.",
-    "AHHHH!!!"
+    "NDASMU",
+    "ETIK!",
+    "ndasmu etik",
+    "NDASMU ETIK",
+    "NDASMU",
+    "ETIK",
+    "ndasmu etik"
    ],
-   "shopee": "https://shopee.co.id/product/269698445/53818981420",
+   "shopee": "https://shopee.co.id/product/269698445/54019002104",
    "tile": {
-    "src": "site/img/how-to-scare-an-introvert/tile.webp",
+    "src": "site/img/ndasmu-etik/tile.webp",
     "w": 640,
     "h": 706
    },
    "images": [
     {
-     "src": "site/img/how-to-scare-an-introvert/1.webp",
+     "src": "site/img/ndasmu-etik/1.webp",
      "color": "black",
      "kind": "flat"
     },
     {
-     "src": "site/img/how-to-scare-an-introvert/2.webp",
+     "src": "site/img/ndasmu-etik/2.webp",
      "color": "white",
      "kind": "flat"
     },
     {
-     "src": "site/img/how-to-scare-an-introvert/3.webp",
+     "src": "site/img/ndasmu-etik/3.webp",
      "color": "black",
      "kind": "model"
     },
     {
-     "src": "site/img/how-to-scare-an-introvert/4.webp",
+     "src": "site/img/ndasmu-etik/4.webp",
      "color": "white",
      "kind": "model"
     },
     {
-     "src": "site/img/how-to-scare-an-introvert/5.webp",
+     "src": "site/img/ndasmu-etik/5.webp",
      "color": "white",
      "kind": "model"
     },
     {
-     "src": "site/img/how-to-scare-an-introvert/6.webp",
+     "src": "site/img/ndasmu-etik/6.webp",
      "color": "black",
      "kind": "model"
     }
-   ]
+   ],
+   "isNew": true
   },
   {
-   "slug": "forget-everything-you-learned-in-college",
+   "slug": "samsul",
    "date": "2026-10-10",
-   "hook": "FORGET EVERYTHING YOU LEARNED IN COLLEGE",
-   "topic": "Meme NPC 4 panel employers forget everything you learned in college, I didn't go to college",
+   "hook": "SAMSUL",
+   "topic": "Plesetan salah sebut asam folat asam sulfat jadi samsul",
    "lines": [
-    "employers",
-    "forget everything you learned in college, this job is going to be completely different from what you learned!",
-    "don't worry, I didn't go to college",
-    "employers",
-    "employers"
+    "Asam",
+    "FOLAT",
+    "(salah sebut)",
+    "ASAM SULFAT",
+    "(salah lagi)",
+    "SAMSUL",
+    "SAMSUL",
+    "Samsul",
+    "SAMSUL"
    ],
-   "shopee": "https://shopee.co.id/product/269698445/54168991317",
+   "shopee": "https://shopee.co.id/product/269698445/52219016886",
    "tile": {
-    "src": "site/img/forget-everything-you-learned-in-college/tile.webp",
+    "src": "site/img/samsul/tile.webp",
     "w": 640,
     "h": 706
    },
    "images": [
     {
-     "src": "site/img/forget-everything-you-learned-in-college/1.webp",
+     "src": "site/img/samsul/1.webp",
      "color": "black",
      "kind": "flat"
     },
     {
-     "src": "site/img/forget-everything-you-learned-in-college/2.webp",
+     "src": "site/img/samsul/2.webp",
      "color": "white",
      "kind": "flat"
     },
     {
-     "src": "site/img/forget-everything-you-learned-in-college/3.webp",
+     "src": "site/img/samsul/3.webp",
      "color": "black",
      "kind": "model"
     },
     {
-     "src": "site/img/forget-everything-you-learned-in-college/4.webp",
+     "src": "site/img/samsul/4.webp",
      "color": "white",
      "kind": "model"
     },
     {
-     "src": "site/img/forget-everything-you-learned-in-college/5.webp",
+     "src": "site/img/samsul/5.webp",
      "color": "white",
      "kind": "model"
     },
     {
-     "src": "site/img/forget-everything-you-learned-in-college/6.webp",
+     "src": "site/img/samsul/6.webp",
      "color": "black",
      "kind": "model"
     }
-   ]
+   ],
+   "isNew": true
   },
   {
-   "slug": "emang-gue-pikirin",
+   "slug": "idiot-sandwich",
    "date": "2026-10-10",
-   "hook": "EMANG GUE PIKIRIN",
-   "topic": "Pidato Prabowo di PENAS Gorontalo 24 Jun 2026, emang gue pikirin, coba di-delete",
+   "hook": "IDIOT SANDWICH",
+   "topic": "Sketsa The Late Late Show 2015 Hell's Cafeteria, what are you, an idiot sandwich",
    "lines": [
-    "Emang gue",
-    "PIKIRIN",
-    "(ketawa, tepuk tangan)",
-    "Coba",
-    "di-delete,",
-    "DELETE",
-    "DELETE"
+    "What are you?",
+    "An idiot",
+    "SANDWICH.",
+    "An idiot sandwich,",
+    "WHAT?",
+    "An idiot sandwich,",
+    "Chef Ramsay."
    ],
-   "shopee": "https://shopee.co.id/product/269698445/53069021216",
+   "shopee": "https://shopee.co.id/product/269698445/52069016898",
    "tile": {
-    "src": "site/img/emang-gue-pikirin/tile.webp",
+    "src": "site/img/idiot-sandwich/tile.webp",
     "w": 640,
     "h": 706
    },
    "images": [
     {
-     "src": "site/img/emang-gue-pikirin/1.webp",
+     "src": "site/img/idiot-sandwich/1.webp",
      "color": "black",
      "kind": "flat"
     },
     {
-     "src": "site/img/emang-gue-pikirin/2.webp",
+     "src": "site/img/idiot-sandwich/2.webp",
      "color": "white",
      "kind": "flat"
     },
     {
-     "src": "site/img/emang-gue-pikirin/3.webp",
+     "src": "site/img/idiot-sandwich/3.webp",
      "color": "black",
      "kind": "model"
     },
     {
-     "src": "site/img/emang-gue-pikirin/4.webp",
+     "src": "site/img/idiot-sandwich/4.webp",
      "color": "white",
      "kind": "model"
     },
     {
-     "src": "site/img/emang-gue-pikirin/5.webp",
+     "src": "site/img/idiot-sandwich/5.webp",
      "color": "white",
      "kind": "model"
     },
     {
-     "src": "site/img/emang-gue-pikirin/6.webp",
+     "src": "site/img/idiot-sandwich/6.webp",
      "color": "black",
      "kind": "model"
     }
-   ]
+   ],
+   "isNew": true
+  },
+  {
+   "slug": "you-shall-not-pass",
+   "date": "2026-10-10",
+   "hook": "YOU SHALL NOT PASS",
+   "topic": "Dialog film fantasi, you shall not pass, meme internasional",
+   "lines": [
+    "YOU",
+    "SHALL NOT",
+    "PASS!",
+    "you shall not pass",
+    "YOU SHALL",
+    "NOT PASS",
+    "NOT."
+   ],
+   "shopee": "https://shopee.co.id/product/269698445/43785044620",
+   "tile": {
+    "src": "site/img/you-shall-not-pass/tile.webp",
+    "w": 640,
+    "h": 706
+   },
+   "images": [
+    {
+     "src": "site/img/you-shall-not-pass/1.webp",
+     "color": "black",
+     "kind": "flat"
+    },
+    {
+     "src": "site/img/you-shall-not-pass/2.webp",
+     "color": "white",
+     "kind": "flat"
+    },
+    {
+     "src": "site/img/you-shall-not-pass/3.webp",
+     "color": "black",
+     "kind": "model"
+    },
+    {
+     "src": "site/img/you-shall-not-pass/4.webp",
+     "color": "white",
+     "kind": "model"
+    },
+    {
+     "src": "site/img/you-shall-not-pass/5.webp",
+     "color": "white",
+     "kind": "model"
+    },
+    {
+     "src": "site/img/you-shall-not-pass/6.webp",
+     "color": "black",
+     "kind": "model"
+    }
+   ],
+   "isNew": true
+  },
+  {
+   "slug": "here-we-go-again",
+   "date": "2026-10-10",
+   "hook": "HERE WE GO AGAIN",
+   "topic": "Dialog game GTA San Andreas, ah shit here we go again",
+   "lines": [
+    "Ah",
+    "SH*T,",
+    "HERE WE GO",
+    "AGAIN.",
+    "again.",
+    "again.",
+    "here we go again",
+    "AH SH*T"
+   ],
+   "shopee": "https://shopee.co.id/product/269698445/49169036948",
+   "tile": {
+    "src": "site/img/here-we-go-again/tile.webp",
+    "w": 640,
+    "h": 706
+   },
+   "images": [
+    {
+     "src": "site/img/here-we-go-again/1.webp",
+     "color": "black",
+     "kind": "flat"
+    },
+    {
+     "src": "site/img/here-we-go-again/2.webp",
+     "color": "white",
+     "kind": "flat"
+    },
+    {
+     "src": "site/img/here-we-go-again/3.webp",
+     "color": "black",
+     "kind": "model"
+    },
+    {
+     "src": "site/img/here-we-go-again/4.webp",
+     "color": "white",
+     "kind": "model"
+    },
+    {
+     "src": "site/img/here-we-go-again/5.webp",
+     "color": "white",
+     "kind": "model"
+    },
+    {
+     "src": "site/img/here-we-go-again/6.webp",
+     "color": "black",
+     "kind": "model"
+    }
+   ],
+   "isNew": true
+  },
+  {
+   "slug": "jangan-rindu-berat",
+   "date": "2026-10-10",
+   "hook": "JANGAN RINDU BERAT",
+   "topic": "Kutipan Dilan 1990, jangan rindu berat kamu nggak akan kuat biar aku saja",
+   "lines": [
+    "Jangan",
+    "RINDU.",
+    "BERAT.",
+    "Kamu nggak",
+    "AKAN KUAT.",
+    "BERAT BERAT",
+    "Biar",
+    "aku saja."
+   ],
+   "shopee": "https://shopee.co.id/product/269698445/57669006946",
+   "tile": {
+    "src": "site/img/jangan-rindu-berat/tile.webp",
+    "w": 640,
+    "h": 706
+   },
+   "images": [
+    {
+     "src": "site/img/jangan-rindu-berat/1.webp",
+     "color": "black",
+     "kind": "flat"
+    },
+    {
+     "src": "site/img/jangan-rindu-berat/2.webp",
+     "color": "white",
+     "kind": "flat"
+    },
+    {
+     "src": "site/img/jangan-rindu-berat/3.webp",
+     "color": "black",
+     "kind": "model"
+    },
+    {
+     "src": "site/img/jangan-rindu-berat/4.webp",
+     "color": "white",
+     "kind": "model"
+    },
+    {
+     "src": "site/img/jangan-rindu-berat/5.webp",
+     "color": "white",
+     "kind": "model"
+    },
+    {
+     "src": "site/img/jangan-rindu-berat/6.webp",
+     "color": "black",
+     "kind": "model"
+    }
+   ],
+   "isNew": true
+  },
+  {
+   "slug": "which-is-literally",
+   "date": "2026-10-10",
+   "hook": "WHICH IS LITERALLY",
+   "topic": "Gaya bicara Jaksel campur Inggris, which is literally basically nggak banget sih",
+   "lines": [
+    "Which is",
+    "LITERALLY",
+    "basically",
+    "BASICALLY",
+    "nggak banget",
+    "SIH",
+    "which is literally"
+   ],
+   "shopee": "https://shopee.co.id/product/269698445/49419030639",
+   "tile": {
+    "src": "site/img/which-is-literally/tile.webp",
+    "w": 640,
+    "h": 706
+   },
+   "images": [
+    {
+     "src": "site/img/which-is-literally/1.webp",
+     "color": "black",
+     "kind": "flat"
+    },
+    {
+     "src": "site/img/which-is-literally/2.webp",
+     "color": "white",
+     "kind": "flat"
+    },
+    {
+     "src": "site/img/which-is-literally/3.webp",
+     "color": "black",
+     "kind": "model"
+    },
+    {
+     "src": "site/img/which-is-literally/4.webp",
+     "color": "white",
+     "kind": "model"
+    },
+    {
+     "src": "site/img/which-is-literally/5.webp",
+     "color": "white",
+     "kind": "model"
+    },
+    {
+     "src": "site/img/which-is-literally/6.webp",
+     "color": "black",
+     "kind": "model"
+    }
+   ],
+   "isNew": true
   },
   {
    "slug": "mas-bahlil-ganteng",
@@ -230,488 +456,325 @@
      "color": "black",
      "kind": "model"
     }
-   ]
+   ],
+   "isNew": true
   },
   {
-   "slug": "which-is-literally",
+   "slug": "emang-gue-pikirin",
    "date": "2026-10-10",
-   "hook": "WHICH IS LITERALLY",
-   "topic": "Gaya bicara Jaksel campur Inggris, which is literally basically nggak banget sih",
+   "hook": "EMANG GUE PIKIRIN",
+   "topic": "Pidato Prabowo di PENAS Gorontalo 24 Jun 2026, emang gue pikirin, coba di-delete",
    "lines": [
-    "Which is",
-    "LITERALLY",
-    "basically",
-    "BASICALLY",
-    "nggak banget",
-    "SIH",
-    "which is literally"
+    "Emang gue",
+    "PIKIRIN",
+    "(ketawa, tepuk tangan)",
+    "Coba",
+    "di-delete,",
+    "DELETE",
+    "DELETE"
    ],
-   "shopee": "https://shopee.co.id/product/269698445/49419030639",
+   "shopee": "https://shopee.co.id/product/269698445/53069021216",
    "tile": {
-    "src": "site/img/which-is-literally/tile.webp",
+    "src": "site/img/emang-gue-pikirin/tile.webp",
     "w": 640,
     "h": 706
    },
    "images": [
     {
-     "src": "site/img/which-is-literally/1.webp",
+     "src": "site/img/emang-gue-pikirin/1.webp",
      "color": "black",
      "kind": "flat"
     },
     {
-     "src": "site/img/which-is-literally/2.webp",
+     "src": "site/img/emang-gue-pikirin/2.webp",
      "color": "white",
      "kind": "flat"
     },
     {
-     "src": "site/img/which-is-literally/3.webp",
+     "src": "site/img/emang-gue-pikirin/3.webp",
      "color": "black",
      "kind": "model"
     },
     {
-     "src": "site/img/which-is-literally/4.webp",
+     "src": "site/img/emang-gue-pikirin/4.webp",
      "color": "white",
      "kind": "model"
     },
     {
-     "src": "site/img/which-is-literally/5.webp",
+     "src": "site/img/emang-gue-pikirin/5.webp",
      "color": "white",
      "kind": "model"
     },
     {
-     "src": "site/img/which-is-literally/6.webp",
+     "src": "site/img/emang-gue-pikirin/6.webp",
      "color": "black",
      "kind": "model"
     }
-   ]
+   ],
+   "isNew": true
   },
   {
-   "slug": "jangan-rindu-berat",
+   "slug": "forget-everything-you-learned-in-college",
    "date": "2026-10-10",
-   "hook": "JANGAN RINDU BERAT",
-   "topic": "Kutipan Dilan 1990, jangan rindu berat kamu nggak akan kuat biar aku saja",
+   "hook": "FORGET EVERYTHING YOU LEARNED IN COLLEGE",
+   "topic": "Meme NPC 4 panel employers forget everything you learned in college, I didn't go to college",
    "lines": [
-    "Jangan",
-    "RINDU.",
-    "BERAT.",
-    "Kamu nggak",
-    "AKAN KUAT.",
-    "BERAT BERAT",
-    "Biar",
-    "aku saja."
+    "employers",
+    "forget everything you learned in college, this job is going to be completely different from what you learned!",
+    "don't worry, I didn't go to college",
+    "employers",
+    "employers"
    ],
-   "shopee": "https://shopee.co.id/product/269698445/57669006946",
+   "shopee": "https://shopee.co.id/product/269698445/54168991317",
    "tile": {
-    "src": "site/img/jangan-rindu-berat/tile.webp",
+    "src": "site/img/forget-everything-you-learned-in-college/tile.webp",
     "w": 640,
     "h": 706
    },
    "images": [
     {
-     "src": "site/img/jangan-rindu-berat/1.webp",
+     "src": "site/img/forget-everything-you-learned-in-college/1.webp",
      "color": "black",
      "kind": "flat"
     },
     {
-     "src": "site/img/jangan-rindu-berat/2.webp",
+     "src": "site/img/forget-everything-you-learned-in-college/2.webp",
      "color": "white",
      "kind": "flat"
     },
     {
-     "src": "site/img/jangan-rindu-berat/3.webp",
+     "src": "site/img/forget-everything-you-learned-in-college/3.webp",
      "color": "black",
      "kind": "model"
     },
     {
-     "src": "site/img/jangan-rindu-berat/4.webp",
+     "src": "site/img/forget-everything-you-learned-in-college/4.webp",
      "color": "white",
      "kind": "model"
     },
     {
-     "src": "site/img/jangan-rindu-berat/5.webp",
+     "src": "site/img/forget-everything-you-learned-in-college/5.webp",
      "color": "white",
      "kind": "model"
     },
     {
-     "src": "site/img/jangan-rindu-berat/6.webp",
+     "src": "site/img/forget-everything-you-learned-in-college/6.webp",
      "color": "black",
      "kind": "model"
     }
-   ]
+   ],
+   "isNew": true
   },
   {
-   "slug": "here-we-go-again",
+   "slug": "how-to-scare-an-introvert",
    "date": "2026-10-10",
-   "hook": "HERE WE GO AGAIN",
-   "topic": "Dialog game GTA San Andreas, ah shit here we go again",
+   "hook": "HOW TO SCARE AN INTROVERT",
+   "topic": "Komik 4 panel hantu bilang boo ke introvert, how to scare an introvert",
    "lines": [
-    "Ah",
-    "SH*T,",
-    "HERE WE GO",
-    "AGAIN.",
-    "again.",
-    "again.",
-    "here we go again",
-    "AH SH*T"
+    "How to scare an introvert",
+    "Boo",
+    "Boo",
+    "Boo?",
+    "I invited some friends over, hope that's ok.",
+    "AHHHH!!!"
    ],
-   "shopee": "https://shopee.co.id/product/269698445/49169036948",
+   "shopee": "https://shopee.co.id/product/269698445/53818981420",
    "tile": {
-    "src": "site/img/here-we-go-again/tile.webp",
+    "src": "site/img/how-to-scare-an-introvert/tile.webp",
     "w": 640,
     "h": 706
    },
    "images": [
     {
-     "src": "site/img/here-we-go-again/1.webp",
+     "src": "site/img/how-to-scare-an-introvert/1.webp",
      "color": "black",
      "kind": "flat"
     },
     {
-     "src": "site/img/here-we-go-again/2.webp",
+     "src": "site/img/how-to-scare-an-introvert/2.webp",
      "color": "white",
      "kind": "flat"
     },
     {
-     "src": "site/img/here-we-go-again/3.webp",
+     "src": "site/img/how-to-scare-an-introvert/3.webp",
      "color": "black",
      "kind": "model"
     },
     {
-     "src": "site/img/here-we-go-again/4.webp",
+     "src": "site/img/how-to-scare-an-introvert/4.webp",
      "color": "white",
      "kind": "model"
     },
     {
-     "src": "site/img/here-we-go-again/5.webp",
+     "src": "site/img/how-to-scare-an-introvert/5.webp",
      "color": "white",
      "kind": "model"
     },
     {
-     "src": "site/img/here-we-go-again/6.webp",
+     "src": "site/img/how-to-scare-an-introvert/6.webp",
      "color": "black",
      "kind": "model"
     }
-   ]
-  },
-  {
-   "slug": "you-shall-not-pass",
-   "date": "2026-10-10",
-   "hook": "YOU SHALL NOT PASS",
-   "topic": "Dialog film fantasi, you shall not pass, meme internasional",
-   "lines": [
-    "YOU",
-    "SHALL NOT",
-    "PASS!",
-    "you shall not pass",
-    "YOU SHALL",
-    "NOT PASS",
-    "NOT."
    ],
-   "shopee": "https://shopee.co.id/product/269698445/43785044620",
-   "tile": {
-    "src": "site/img/you-shall-not-pass/tile.webp",
-    "w": 640,
-    "h": 706
-   },
-   "images": [
-    {
-     "src": "site/img/you-shall-not-pass/1.webp",
-     "color": "black",
-     "kind": "flat"
-    },
-    {
-     "src": "site/img/you-shall-not-pass/2.webp",
-     "color": "white",
-     "kind": "flat"
-    },
-    {
-     "src": "site/img/you-shall-not-pass/3.webp",
-     "color": "black",
-     "kind": "model"
-    },
-    {
-     "src": "site/img/you-shall-not-pass/4.webp",
-     "color": "white",
-     "kind": "model"
-    },
-    {
-     "src": "site/img/you-shall-not-pass/5.webp",
-     "color": "white",
-     "kind": "model"
-    },
-    {
-     "src": "site/img/you-shall-not-pass/6.webp",
-     "color": "black",
-     "kind": "model"
-    }
-   ]
+   "isNew": true
   },
   {
-   "slug": "idiot-sandwich",
-   "date": "2026-10-10",
-   "hook": "IDIOT SANDWICH",
-   "topic": "Sketsa The Late Late Show 2015 Hell's Cafeteria, what are you, an idiot sandwich",
-   "lines": [
-    "What are you?",
-    "An idiot",
-    "SANDWICH.",
-    "An idiot sandwich,",
-    "WHAT?",
-    "An idiot sandwich,",
-    "Chef Ramsay."
-   ],
-   "shopee": "https://shopee.co.id/product/269698445/52069016898",
-   "tile": {
-    "src": "site/img/idiot-sandwich/tile.webp",
-    "w": 640,
-    "h": 706
-   },
-   "images": [
-    {
-     "src": "site/img/idiot-sandwich/1.webp",
-     "color": "black",
-     "kind": "flat"
-    },
-    {
-     "src": "site/img/idiot-sandwich/2.webp",
-     "color": "white",
-     "kind": "flat"
-    },
-    {
-     "src": "site/img/idiot-sandwich/3.webp",
-     "color": "black",
-     "kind": "model"
-    },
-    {
-     "src": "site/img/idiot-sandwich/4.webp",
-     "color": "white",
-     "kind": "model"
-    },
-    {
-     "src": "site/img/idiot-sandwich/5.webp",
-     "color": "white",
-     "kind": "model"
-    },
-    {
-     "src": "site/img/idiot-sandwich/6.webp",
-     "color": "black",
-     "kind": "model"
-    }
-   ]
-  },
-  {
-   "slug": "samsul",
-   "date": "2026-10-10",
-   "hook": "SAMSUL",
-   "topic": "Plesetan salah sebut asam folat asam sulfat jadi samsul",
-   "lines": [
-    "Asam",
-    "FOLAT",
-    "(salah sebut)",
-    "ASAM SULFAT",
-    "(salah lagi)",
-    "SAMSUL",
-    "SAMSUL",
-    "Samsul",
-    "SAMSUL"
-   ],
-   "shopee": "https://shopee.co.id/product/269698445/52219016886",
-   "tile": {
-    "src": "site/img/samsul/tile.webp",
-    "w": 640,
-    "h": 706
-   },
-   "images": [
-    {
-     "src": "site/img/samsul/1.webp",
-     "color": "black",
-     "kind": "flat"
-    },
-    {
-     "src": "site/img/samsul/2.webp",
-     "color": "white",
-     "kind": "flat"
-    },
-    {
-     "src": "site/img/samsul/3.webp",
-     "color": "black",
-     "kind": "model"
-    },
-    {
-     "src": "site/img/samsul/4.webp",
-     "color": "white",
-     "kind": "model"
-    },
-    {
-     "src": "site/img/samsul/5.webp",
-     "color": "white",
-     "kind": "model"
-    },
-    {
-     "src": "site/img/samsul/6.webp",
-     "color": "black",
-     "kind": "model"
-    }
-   ]
-  },
-  {
-   "slug": "ndasmu-etik",
-   "date": "2026-10-10",
-   "hook": "NDASMU ETIK",
-   "topic": "Ungkapan Jawa ndasmu etik yang viral di pidato politik",
-   "lines": [
-    "NDASMU",
-    "ETIK!",
-    "ndasmu etik",
-    "NDASMU ETIK",
-    "NDASMU",
-    "ETIK",
-    "ndasmu etik"
-   ],
-   "shopee": "https://shopee.co.id/product/269698445/54019002104",
-   "tile": {
-    "src": "site/img/ndasmu-etik/tile.webp",
-    "w": 640,
-    "h": 706
-   },
-   "images": [
-    {
-     "src": "site/img/ndasmu-etik/1.webp",
-     "color": "black",
-     "kind": "flat"
-    },
-    {
-     "src": "site/img/ndasmu-etik/2.webp",
-     "color": "white",
-     "kind": "flat"
-    },
-    {
-     "src": "site/img/ndasmu-etik/3.webp",
-     "color": "black",
-     "kind": "model"
-    },
-    {
-     "src": "site/img/ndasmu-etik/4.webp",
-     "color": "white",
-     "kind": "model"
-    },
-    {
-     "src": "site/img/ndasmu-etik/5.webp",
-     "color": "white",
-     "kind": "model"
-    },
-    {
-     "src": "site/img/ndasmu-etik/6.webp",
-     "color": "black",
-     "kind": "model"
-    }
-   ]
-  },
-  {
-   "slug": "kamu-nanya",
+   "slug": "apa-kata-dunia",
    "date": "2026-10-09",
-   "hook": "KAMU NANYA?",
-   "topic": "Kamu nanya kamu bertanya-tanya, TikTok live peniru Dilan, Nov 2022",
+   "hook": "APA KATA DUNIA?",
+   "topic": "Kalimat khas Naga Bonar apa kata dunia, film 1987",
    "lines": [
-    "Kamu nanya?",
-    "Kamu bertanya-tanya?",
-    "Kamu nanya?",
-    "Kamu bertanya-tanya?",
-    "Kamu nanya?",
-    "Kamu bertanya-tanya?",
-    "Kamu nanya?"
+    "Apa kata",
+    "DUNIA?",
+    "Apa kata",
+    "DUNIA?",
+    "Apa kata",
+    "DUNIA?"
    ],
-   "shopee": "https://shopee.co.id/product/269698445/49618981489",
+   "shopee": "https://shopee.co.id/product/269698445/49968996296",
    "tile": {
-    "src": "site/img/kamu-nanya/tile.webp",
+    "src": "site/img/apa-kata-dunia/tile.webp",
     "w": 640,
     "h": 706
    },
    "images": [
     {
-     "src": "site/img/kamu-nanya/1.webp",
+     "src": "site/img/apa-kata-dunia/1.webp",
      "color": "black",
      "kind": "flat"
     },
     {
-     "src": "site/img/kamu-nanya/2.webp",
+     "src": "site/img/apa-kata-dunia/2.webp",
      "color": "white",
      "kind": "flat"
     },
     {
-     "src": "site/img/kamu-nanya/3.webp",
+     "src": "site/img/apa-kata-dunia/3.webp",
      "color": "black",
      "kind": "model"
     },
     {
-     "src": "site/img/kamu-nanya/4.webp",
+     "src": "site/img/apa-kata-dunia/4.webp",
      "color": "white",
      "kind": "model"
     },
     {
-     "src": "site/img/kamu-nanya/5.webp",
+     "src": "site/img/apa-kata-dunia/5.webp",
      "color": "white",
      "kind": "model"
     },
     {
-     "src": "site/img/kamu-nanya/6.webp",
+     "src": "site/img/apa-kata-dunia/6.webp",
      "color": "black",
      "kind": "model"
     }
-   ]
+   ],
+   "isNew": false
   },
   {
-   "slug": "di-situ-kadang-saya-merasa-sedih",
+   "slug": "let-him-cook",
    "date": "2026-10-09",
-   "hook": "DI SITU KADANG SAYA MERASA SEDIH",
-   "topic": "Meme polwan Bandung di situ kadang saya merasa sedih, Okt 2014",
+   "hook": "LET HIM COOK",
+   "topic": "Meme let him cook, Lil B 2010, viral debat cawapres Des 2023",
    "lines": [
-    "Di situ",
-    "kadang",
-    "saya merasa",
-    "Sedih",
-    "sedih",
-    "sedih...",
-    "Di situ kadang saya merasa sedih"
+    "Let him",
+    "COOK",
+    "[ilustrasi topi chef, api, panci, wajan]",
+    "Let him cook"
    ],
-   "shopee": "https://shopee.co.id/product/269698445/50918961544",
+   "shopee": "https://shopee.co.id/product/269698445/46118995112",
    "tile": {
-    "src": "site/img/di-situ-kadang-saya-merasa-sedih/tile.webp",
+    "src": "site/img/let-him-cook/tile.webp",
     "w": 640,
     "h": 706
    },
    "images": [
     {
-     "src": "site/img/di-situ-kadang-saya-merasa-sedih/1.webp",
+     "src": "site/img/let-him-cook/1.webp",
      "color": "black",
      "kind": "flat"
     },
     {
-     "src": "site/img/di-situ-kadang-saya-merasa-sedih/2.webp",
+     "src": "site/img/let-him-cook/2.webp",
      "color": "white",
      "kind": "flat"
     },
     {
-     "src": "site/img/di-situ-kadang-saya-merasa-sedih/3.webp",
+     "src": "site/img/let-him-cook/3.webp",
      "color": "black",
      "kind": "model"
     },
     {
-     "src": "site/img/di-situ-kadang-saya-merasa-sedih/4.webp",
+     "src": "site/img/let-him-cook/4.webp",
      "color": "white",
      "kind": "model"
     },
     {
-     "src": "site/img/di-situ-kadang-saya-merasa-sedih/5.webp",
+     "src": "site/img/let-him-cook/5.webp",
      "color": "white",
      "kind": "model"
     },
     {
-     "src": "site/img/di-situ-kadang-saya-merasa-sedih/6.webp",
+     "src": "site/img/let-him-cook/6.webp",
      "color": "black",
      "kind": "model"
     }
-   ]
+   ],
+   "isNew": false
+  },
+  {
+   "slug": "tahu-bulat-digoreng-dadakan",
+   "date": "2026-10-09",
+   "hook": "TAHU BULAT DIGORENG DADAKAN",
+   "topic": "Teriakan penjual tahu bulat keliling digoreng dadakan lima ratusan",
+   "lines": [
+    "Tahu bulat",
+    "digoreng dadakan",
+    "lima ratusan!",
+    "Tahu bulat",
+    "digoreng dadakan",
+    "lima ratusan!",
+    "Tahu bulat, digoreng dadakan, lima ratusan!"
+   ],
+   "shopee": "https://shopee.co.id/product/269698445/54718961530",
+   "tile": {
+    "src": "site/img/tahu-bulat-digoreng-dadakan/tile.webp",
+    "w": 640,
+    "h": 706
+   },
+   "images": [
+    {
+     "src": "site/img/tahu-bulat-digoreng-dadakan/1.webp",
+     "color": "black",
+     "kind": "flat"
+    },
+    {
+     "src": "site/img/tahu-bulat-digoreng-dadakan/2.webp",
+     "color": "white",
+     "kind": "flat"
+    },
+    {
+     "src": "site/img/tahu-bulat-digoreng-dadakan/3.webp",
+     "color": "black",
+     "kind": "model"
+    },
+    {
+     "src": "site/img/tahu-bulat-digoreng-dadakan/4.webp",
+     "color": "white",
+     "kind": "model"
+    },
+    {
+     "src": "site/img/tahu-bulat-digoreng-dadakan/5.webp",
+     "color": "white",
+     "kind": "model"
+    },
+    {
+     "src": "site/img/tahu-bulat-digoreng-dadakan/6.webp",
+     "color": "black",
+     "kind": "model"
+    }
+   ],
+   "isNew": false
   },
   {
    "slug": "om-telolet-om",
@@ -765,424 +828,555 @@
      "color": "black",
      "kind": "model"
     }
-   ]
+   ],
+   "isNew": false
   },
   {
-   "slug": "tahu-bulat-digoreng-dadakan",
+   "slug": "di-situ-kadang-saya-merasa-sedih",
    "date": "2026-10-09",
-   "hook": "TAHU BULAT DIGORENG DADAKAN",
-   "topic": "Teriakan penjual tahu bulat keliling digoreng dadakan lima ratusan",
+   "hook": "DI SITU KADANG SAYA MERASA SEDIH",
+   "topic": "Meme polwan Bandung di situ kadang saya merasa sedih, Okt 2014",
    "lines": [
-    "Tahu bulat",
-    "digoreng dadakan",
-    "lima ratusan!",
-    "Tahu bulat",
-    "digoreng dadakan",
-    "lima ratusan!",
-    "Tahu bulat, digoreng dadakan, lima ratusan!"
+    "Di situ",
+    "kadang",
+    "saya merasa",
+    "Sedih",
+    "sedih",
+    "sedih...",
+    "Di situ kadang saya merasa sedih"
    ],
-   "shopee": "https://shopee.co.id/product/269698445/54718961530",
+   "shopee": "https://shopee.co.id/product/269698445/50918961544",
    "tile": {
-    "src": "site/img/tahu-bulat-digoreng-dadakan/tile.webp",
+    "src": "site/img/di-situ-kadang-saya-merasa-sedih/tile.webp",
     "w": 640,
     "h": 706
    },
    "images": [
     {
-     "src": "site/img/tahu-bulat-digoreng-dadakan/1.webp",
+     "src": "site/img/di-situ-kadang-saya-merasa-sedih/1.webp",
      "color": "black",
      "kind": "flat"
     },
     {
-     "src": "site/img/tahu-bulat-digoreng-dadakan/2.webp",
+     "src": "site/img/di-situ-kadang-saya-merasa-sedih/2.webp",
      "color": "white",
      "kind": "flat"
     },
     {
-     "src": "site/img/tahu-bulat-digoreng-dadakan/3.webp",
+     "src": "site/img/di-situ-kadang-saya-merasa-sedih/3.webp",
      "color": "black",
      "kind": "model"
     },
     {
-     "src": "site/img/tahu-bulat-digoreng-dadakan/4.webp",
+     "src": "site/img/di-situ-kadang-saya-merasa-sedih/4.webp",
      "color": "white",
      "kind": "model"
     },
     {
-     "src": "site/img/tahu-bulat-digoreng-dadakan/5.webp",
+     "src": "site/img/di-situ-kadang-saya-merasa-sedih/5.webp",
      "color": "white",
      "kind": "model"
     },
     {
-     "src": "site/img/tahu-bulat-digoreng-dadakan/6.webp",
+     "src": "site/img/di-situ-kadang-saya-merasa-sedih/6.webp",
      "color": "black",
      "kind": "model"
     }
-   ]
+   ],
+   "isNew": false
   },
   {
-   "slug": "let-him-cook",
+   "slug": "kamu-nanya",
    "date": "2026-10-09",
-   "hook": "LET HIM COOK",
-   "topic": "Meme let him cook, Lil B 2010, viral debat cawapres Des 2023",
+   "hook": "KAMU NANYA?",
+   "topic": "Kamu nanya kamu bertanya-tanya, TikTok live peniru Dilan, Nov 2022",
    "lines": [
-    "Let him",
-    "COOK",
-    "[ilustrasi topi chef, api, panci, wajan]",
-    "Let him cook"
+    "Kamu nanya?",
+    "Kamu bertanya-tanya?",
+    "Kamu nanya?",
+    "Kamu bertanya-tanya?",
+    "Kamu nanya?",
+    "Kamu bertanya-tanya?",
+    "Kamu nanya?"
    ],
-   "shopee": "https://shopee.co.id/product/269698445/46118995112",
+   "shopee": "https://shopee.co.id/product/269698445/49618981489",
    "tile": {
-    "src": "site/img/let-him-cook/tile.webp",
+    "src": "site/img/kamu-nanya/tile.webp",
     "w": 640,
     "h": 706
    },
    "images": [
     {
-     "src": "site/img/let-him-cook/1.webp",
+     "src": "site/img/kamu-nanya/1.webp",
      "color": "black",
      "kind": "flat"
     },
     {
-     "src": "site/img/let-him-cook/2.webp",
+     "src": "site/img/kamu-nanya/2.webp",
      "color": "white",
      "kind": "flat"
     },
     {
-     "src": "site/img/let-him-cook/3.webp",
+     "src": "site/img/kamu-nanya/3.webp",
      "color": "black",
      "kind": "model"
     },
     {
-     "src": "site/img/let-him-cook/4.webp",
+     "src": "site/img/kamu-nanya/4.webp",
      "color": "white",
      "kind": "model"
     },
     {
-     "src": "site/img/let-him-cook/5.webp",
+     "src": "site/img/kamu-nanya/5.webp",
      "color": "white",
      "kind": "model"
     },
     {
-     "src": "site/img/let-him-cook/6.webp",
+     "src": "site/img/kamu-nanya/6.webp",
      "color": "black",
      "kind": "model"
     }
-   ]
-  },
-  {
-   "slug": "apa-kata-dunia",
-   "date": "2026-10-09",
-   "hook": "APA KATA DUNIA?",
-   "topic": "Kalimat khas Naga Bonar apa kata dunia, film 1987",
-   "lines": [
-    "Apa kata",
-    "DUNIA?",
-    "Apa kata",
-    "DUNIA?",
-    "Apa kata",
-    "DUNIA?"
    ],
-   "shopee": "https://shopee.co.id/product/269698445/49968996296",
-   "tile": {
-    "src": "site/img/apa-kata-dunia/tile.webp",
-    "w": 640,
-    "h": 706
-   },
-   "images": [
-    {
-     "src": "site/img/apa-kata-dunia/1.webp",
-     "color": "black",
-     "kind": "flat"
-    },
-    {
-     "src": "site/img/apa-kata-dunia/2.webp",
-     "color": "white",
-     "kind": "flat"
-    },
-    {
-     "src": "site/img/apa-kata-dunia/3.webp",
-     "color": "black",
-     "kind": "model"
-    },
-    {
-     "src": "site/img/apa-kata-dunia/4.webp",
-     "color": "white",
-     "kind": "model"
-    },
-    {
-     "src": "site/img/apa-kata-dunia/5.webp",
-     "color": "white",
-     "kind": "model"
-    },
-    {
-     "src": "site/img/apa-kata-dunia/6.webp",
-     "color": "black",
-     "kind": "model"
-    }
-   ]
+   "isNew": false
   },
   {
-   "slug": "what-is-your-name-ezekiel",
+   "slug": "aaaa",
    "date": "2026-10-03",
-   "hook": "WHAT IS YOUR NAME EZEKIEL",
-   "topic": "Meme dialog what is your name Tony Ezekiel",
+   "hook": "AAAA",
+   "topic": "Bebek teriak AAAA, meme bebek panik",
    "lines": [
-    "What's Your Name?",
-    "What?!?",
-    "TONY!",
-    "What - Is - Your - Name?",
-    "F*ck you, Tony!",
-    "What's your name?",
-    "Ezekiel!",
-    "F*ck you, Ezekiel!",
-    "F*ck You",
-    "F*CK YOU",
-    "F*ck You",
-    "Aye, you know what I did last night?",
-    "You better not bring my mother into this!",
-    "You know what I did?",
-    "You better not!",
-    "I built that fire over there...",
-    "And I f*cked your mother next to it!",
-    "OH!",
-    "F*ck You, Ezekiel!",
-    "F*CK YOU"
+    "AAAA"
    ],
-   "shopee": "https://shopee.co.id/product/269698445/50018711417",
+   "shopee": "https://shopee.co.id/product/269698445/45268747377",
    "tile": {
-    "src": "site/img/what-is-your-name-ezekiel/tile.webp",
+    "src": "site/img/aaaa/tile.webp",
     "w": 640,
     "h": 706
    },
    "images": [
     {
-     "src": "site/img/what-is-your-name-ezekiel/1.webp",
+     "src": "site/img/aaaa/1.webp",
      "color": "black",
      "kind": "flat"
     },
     {
-     "src": "site/img/what-is-your-name-ezekiel/2.webp",
+     "src": "site/img/aaaa/2.webp",
      "color": "white",
      "kind": "flat"
     },
     {
-     "src": "site/img/what-is-your-name-ezekiel/3.webp",
+     "src": "site/img/aaaa/3.webp",
      "color": "black",
      "kind": "model"
     },
     {
-     "src": "site/img/what-is-your-name-ezekiel/4.webp",
+     "src": "site/img/aaaa/4.webp",
      "color": "white",
      "kind": "model"
     },
     {
-     "src": "site/img/what-is-your-name-ezekiel/5.webp",
+     "src": "site/img/aaaa/5.webp",
      "color": "white",
      "kind": "model"
     },
     {
-     "src": "site/img/what-is-your-name-ezekiel/6.webp",
+     "src": "site/img/aaaa/6.webp",
      "color": "black",
      "kind": "model"
     }
-   ]
+   ],
+   "isNew": false
   },
   {
-   "slug": "corruption-is-not-bad",
+   "slug": "67",
    "date": "2026-10-03",
-   "hook": "CORRUPTION IS NOT BAD",
-   "topic": "Meme satire corruption is not bad I defend it",
+   "hook": "67",
+   "topic": "Meme 6 7 six seven gestur tangan",
    "lines": [
-    "Corruption",
-    "is not bad",
-    "Corruption is only bad",
-    "if I am not involved",
-    "But if I am part of that corruption",
-    "I defend it"
+    "6",
+    "7"
    ],
-   "shopee": "https://shopee.co.id/product/269698445/53118701739",
+   "shopee": "https://shopee.co.id/product/269698445/26195995244",
    "tile": {
-    "src": "site/img/corruption-is-not-bad/tile.webp",
+    "src": "site/img/67/tile.webp",
     "w": 640,
     "h": 706
    },
    "images": [
     {
-     "src": "site/img/corruption-is-not-bad/1.webp",
+     "src": "site/img/67/1.webp",
      "color": "black",
      "kind": "flat"
     },
     {
-     "src": "site/img/corruption-is-not-bad/2.webp",
+     "src": "site/img/67/2.webp",
      "color": "white",
      "kind": "flat"
     },
     {
-     "src": "site/img/corruption-is-not-bad/3.webp",
+     "src": "site/img/67/3.webp",
      "color": "black",
      "kind": "model"
     },
     {
-     "src": "site/img/corruption-is-not-bad/4.webp",
+     "src": "site/img/67/4.webp",
      "color": "white",
      "kind": "model"
     },
     {
-     "src": "site/img/corruption-is-not-bad/5.webp",
+     "src": "site/img/67/5.webp",
      "color": "white",
      "kind": "model"
     },
     {
-     "src": "site/img/corruption-is-not-bad/6.webp",
+     "src": "site/img/67/6.webp",
      "color": "black",
      "kind": "model"
     }
-   ]
+   ],
+   "isNew": false
   },
   {
-   "slug": "asap-alcohol-solve-all-problem",
+   "slug": "awoo",
    "date": "2026-10-03",
-   "hook": "ASAP ALCOHOL SOLVE ALL PROBLEM",
-   "topic": "Plesetan singkatan ASAP alcohol solve all problem",
+   "hook": "AWOO",
+   "topic": "Anjing shiba melolong awoo, meme anjing",
    "lines": [
-    "ASAP",
-    "Alcohol Solve All Problem"
+    "AWOO"
    ],
-   "shopee": "https://shopee.co.id/product/269698445/54368706737",
+   "shopee": "https://shopee.co.id/product/269698445/49368742350",
    "tile": {
-    "src": "site/img/asap-alcohol-solve-all-problem/tile.webp",
+    "src": "site/img/awoo/tile.webp",
     "w": 640,
     "h": 706
    },
    "images": [
     {
-     "src": "site/img/asap-alcohol-solve-all-problem/1.webp",
+     "src": "site/img/awoo/1.webp",
      "color": "black",
      "kind": "flat"
     },
     {
-     "src": "site/img/asap-alcohol-solve-all-problem/2.webp",
+     "src": "site/img/awoo/2.webp",
      "color": "white",
      "kind": "flat"
     },
     {
-     "src": "site/img/asap-alcohol-solve-all-problem/3.webp",
+     "src": "site/img/awoo/3.webp",
      "color": "black",
      "kind": "model"
     },
     {
-     "src": "site/img/asap-alcohol-solve-all-problem/4.webp",
+     "src": "site/img/awoo/4.webp",
      "color": "white",
      "kind": "model"
     },
     {
-     "src": "site/img/asap-alcohol-solve-all-problem/5.webp",
+     "src": "site/img/awoo/5.webp",
      "color": "white",
      "kind": "model"
     },
     {
-     "src": "site/img/asap-alcohol-solve-all-problem/6.webp",
+     "src": "site/img/awoo/6.webp",
      "color": "black",
      "kind": "model"
     }
-   ]
+   ],
+   "isNew": false
   },
   {
-   "slug": "do-you-perform-the-natural-obligations",
+   "slug": "energy-loading-please-wait",
    "date": "2026-10-03",
-   "hook": "DO YOU PERFORM THE NATURAL OBLIGATIONS?",
-   "topic": "Meme pertanyaan do you perform the natural obligations",
+   "hook": "ENERGY LOADING PLEASE WAIT",
+   "topic": "Sloth tidur di baterai lowbat, energy loading",
    "lines": [
-    "Do you perform",
-    "the natural...",
-    "Obligations?"
+    "ENERGY",
+    "LOADING",
+    "PLEASE WAIT..."
    ],
-   "shopee": "https://shopee.co.id/product/269698445/57668701649",
+   "shopee": "https://shopee.co.id/product/269698445/45868747387",
    "tile": {
-    "src": "site/img/do-you-perform-the-natural-obligations/tile.webp",
+    "src": "site/img/energy-loading-please-wait/tile.webp",
     "w": 640,
     "h": 706
    },
    "images": [
     {
-     "src": "site/img/do-you-perform-the-natural-obligations/1.webp",
+     "src": "site/img/energy-loading-please-wait/1.webp",
      "color": "black",
      "kind": "flat"
     },
     {
-     "src": "site/img/do-you-perform-the-natural-obligations/2.webp",
+     "src": "site/img/energy-loading-please-wait/2.webp",
      "color": "white",
      "kind": "flat"
     },
     {
-     "src": "site/img/do-you-perform-the-natural-obligations/3.webp",
+     "src": "site/img/energy-loading-please-wait/3.webp",
      "color": "black",
      "kind": "model"
     },
     {
-     "src": "site/img/do-you-perform-the-natural-obligations/4.webp",
+     "src": "site/img/energy-loading-please-wait/4.webp",
      "color": "white",
      "kind": "model"
     },
     {
-     "src": "site/img/do-you-perform-the-natural-obligations/5.webp",
+     "src": "site/img/energy-loading-please-wait/5.webp",
      "color": "white",
      "kind": "model"
     },
     {
-     "src": "site/img/do-you-perform-the-natural-obligations/6.webp",
+     "src": "site/img/energy-loading-please-wait/6.webp",
      "color": "black",
      "kind": "model"
     }
-   ]
+   ],
+   "isNew": false
   },
   {
-   "slug": "just-do-eat",
+   "slug": "please-don-t-ask-me-how-i-m-doing",
    "date": "2026-10-03",
-   "hook": "JUST DO EAT",
-   "topic": "Plesetan slogan just do it jadi just do eat",
+   "hook": "Please, Don't Ask Me How I'm Doing",
+   "topic": "Kodok lesu please dont ask me how im doing",
    "lines": [
-    "Just do eat."
+    "PLEASE, DON'T ASK ME",
+    "HOW I'M DOING"
    ],
-   "shopee": "https://shopee.co.id/product/269698445/54418716384",
+   "shopee": "https://shopee.co.id/product/269698445/45668742387",
    "tile": {
-    "src": "site/img/just-do-eat/tile.webp",
+    "src": "site/img/please-don-t-ask-me-how-i-m-doing/tile.webp",
     "w": 640,
     "h": 706
    },
    "images": [
     {
-     "src": "site/img/just-do-eat/1.webp",
+     "src": "site/img/please-don-t-ask-me-how-i-m-doing/1.webp",
      "color": "black",
      "kind": "flat"
     },
     {
-     "src": "site/img/just-do-eat/2.webp",
+     "src": "site/img/please-don-t-ask-me-how-i-m-doing/2.webp",
      "color": "white",
      "kind": "flat"
     },
     {
-     "src": "site/img/just-do-eat/3.webp",
+     "src": "site/img/please-don-t-ask-me-how-i-m-doing/3.webp",
      "color": "black",
      "kind": "model"
     },
     {
-     "src": "site/img/just-do-eat/4.webp",
+     "src": "site/img/please-don-t-ask-me-how-i-m-doing/4.webp",
      "color": "white",
      "kind": "model"
     },
     {
-     "src": "site/img/just-do-eat/5.webp",
+     "src": "site/img/please-don-t-ask-me-how-i-m-doing/5.webp",
      "color": "white",
      "kind": "model"
     },
     {
-     "src": "site/img/just-do-eat/6.webp",
+     "src": "site/img/please-don-t-ask-me-how-i-m-doing/6.webp",
      "color": "black",
      "kind": "model"
     }
-   ]
+   ],
+   "isNew": false
+  },
+  {
+   "slug": "too-capy-to-care",
+   "date": "2026-10-03",
+   "hook": "TOO CAPY TO CARE",
+   "topic": "Capybara santai pakai kacamata hitam, too capy to care",
+   "lines": [
+    "TOO CAPY",
+    "TO CARE"
+   ],
+   "shopee": "https://shopee.co.id/product/269698445/52918708400",
+   "tile": {
+    "src": "site/img/too-capy-to-care/tile.webp",
+    "w": 640,
+    "h": 706
+   },
+   "images": [
+    {
+     "src": "site/img/too-capy-to-care/1.webp",
+     "color": "black",
+     "kind": "flat"
+    },
+    {
+     "src": "site/img/too-capy-to-care/2.webp",
+     "color": "white",
+     "kind": "flat"
+    },
+    {
+     "src": "site/img/too-capy-to-care/3.webp",
+     "color": "black",
+     "kind": "model"
+    },
+    {
+     "src": "site/img/too-capy-to-care/4.webp",
+     "color": "white",
+     "kind": "model"
+    },
+    {
+     "src": "site/img/too-capy-to-care/5.webp",
+     "color": "white",
+     "kind": "model"
+    },
+    {
+     "src": "site/img/too-capy-to-care/6.webp",
+     "color": "black",
+     "kind": "model"
+    }
+   ],
+   "isNew": false
+  },
+  {
+   "slug": "balaclava-dog",
+   "date": "2026-10-03",
+   "hook": "BALACLAVA DOG",
+   "topic": "Anjing kecil pakai balaclava, meme anjing lucu",
+   "lines": [
+    "[ilustrasi tanpa teks] anjing pakai balaclava"
+   ],
+   "shopee": "https://shopee.co.id/product/269698445/55518708511",
+   "tile": {
+    "src": "site/img/balaclava-dog/tile.webp",
+    "w": 640,
+    "h": 706
+   },
+   "images": [
+    {
+     "src": "site/img/balaclava-dog/1.webp",
+     "color": "black",
+     "kind": "flat"
+    },
+    {
+     "src": "site/img/balaclava-dog/2.webp",
+     "color": "white",
+     "kind": "flat"
+    },
+    {
+     "src": "site/img/balaclava-dog/3.webp",
+     "color": "black",
+     "kind": "model"
+    },
+    {
+     "src": "site/img/balaclava-dog/4.webp",
+     "color": "white",
+     "kind": "model"
+    },
+    {
+     "src": "site/img/balaclava-dog/5.webp",
+     "color": "white",
+     "kind": "model"
+    },
+    {
+     "src": "site/img/balaclava-dog/6.webp",
+     "color": "black",
+     "kind": "model"
+    }
+   ],
+   "isNew": false
+  },
+  {
+   "slug": "stop-following-me",
+   "date": "2026-10-03",
+   "hook": "STOP FOLLOWING ME!",
+   "topic": "Parodi evolusi manusia stop following me",
+   "lines": [
+    "STOP",
+    "FOLLOWING ME!"
+   ],
+   "shopee": "https://shopee.co.id/product/269698445/40734913723",
+   "tile": {
+    "src": "site/img/stop-following-me/tile.webp",
+    "w": 640,
+    "h": 706
+   },
+   "images": [
+    {
+     "src": "site/img/stop-following-me/1.webp",
+     "color": "black",
+     "kind": "flat"
+    },
+    {
+     "src": "site/img/stop-following-me/2.webp",
+     "color": "white",
+     "kind": "flat"
+    },
+    {
+     "src": "site/img/stop-following-me/3.webp",
+     "color": "black",
+     "kind": "model"
+    },
+    {
+     "src": "site/img/stop-following-me/4.webp",
+     "color": "white",
+     "kind": "model"
+    },
+    {
+     "src": "site/img/stop-following-me/5.webp",
+     "color": "white",
+     "kind": "model"
+    },
+    {
+     "src": "site/img/stop-following-me/6.webp",
+     "color": "black",
+     "kind": "model"
+    }
+   ],
+   "isNew": false
+  },
+  {
+   "slug": "to-do-list-nothing",
+   "date": "2026-10-03",
+   "hook": "TO DO LIST: NOTHING",
+   "topic": "Kaos sloth to do list nothing, mager",
+   "lines": [
+    "To do list:",
+    "Nothing"
+   ],
+   "shopee": "https://shopee.co.id/product/269698445/57868716291",
+   "tile": {
+    "src": "site/img/to-do-list-nothing/tile.webp",
+    "w": 640,
+    "h": 706
+   },
+   "images": [
+    {
+     "src": "site/img/to-do-list-nothing/1.webp",
+     "color": "black",
+     "kind": "flat"
+    },
+    {
+     "src": "site/img/to-do-list-nothing/2.webp",
+     "color": "white",
+     "kind": "flat"
+    },
+    {
+     "src": "site/img/to-do-list-nothing/3.webp",
+     "color": "black",
+     "kind": "model"
+    },
+    {
+     "src": "site/img/to-do-list-nothing/4.webp",
+     "color": "white",
+     "kind": "model"
+    },
+    {
+     "src": "site/img/to-do-list-nothing/5.webp",
+     "color": "white",
+     "kind": "model"
+    },
+    {
+     "src": "site/img/to-do-list-nothing/6.webp",
+     "color": "black",
+     "kind": "model"
+    }
+   ],
+   "isNew": false
   },
   {
    "slug": "i-love-you",
@@ -1260,489 +1454,275 @@
      "color": "black",
      "kind": "model"
     }
-   ]
+   ],
+   "isNew": false
   },
   {
-   "slug": "to-do-list-nothing",
+   "slug": "just-do-eat",
    "date": "2026-10-03",
-   "hook": "TO DO LIST: NOTHING",
-   "topic": "Kaos sloth to do list nothing, mager",
+   "hook": "JUST DO EAT",
+   "topic": "Plesetan slogan just do it jadi just do eat",
    "lines": [
-    "To do list:",
-    "Nothing"
+    "Just do eat."
    ],
-   "shopee": "https://shopee.co.id/product/269698445/57868716291",
+   "shopee": "https://shopee.co.id/product/269698445/54418716384",
    "tile": {
-    "src": "site/img/to-do-list-nothing/tile.webp",
+    "src": "site/img/just-do-eat/tile.webp",
     "w": 640,
     "h": 706
    },
    "images": [
     {
-     "src": "site/img/to-do-list-nothing/1.webp",
+     "src": "site/img/just-do-eat/1.webp",
      "color": "black",
      "kind": "flat"
     },
     {
-     "src": "site/img/to-do-list-nothing/2.webp",
+     "src": "site/img/just-do-eat/2.webp",
      "color": "white",
      "kind": "flat"
     },
     {
-     "src": "site/img/to-do-list-nothing/3.webp",
+     "src": "site/img/just-do-eat/3.webp",
      "color": "black",
      "kind": "model"
     },
     {
-     "src": "site/img/to-do-list-nothing/4.webp",
+     "src": "site/img/just-do-eat/4.webp",
      "color": "white",
      "kind": "model"
     },
     {
-     "src": "site/img/to-do-list-nothing/5.webp",
+     "src": "site/img/just-do-eat/5.webp",
      "color": "white",
      "kind": "model"
     },
     {
-     "src": "site/img/to-do-list-nothing/6.webp",
+     "src": "site/img/just-do-eat/6.webp",
      "color": "black",
      "kind": "model"
     }
-   ]
+   ],
+   "isNew": false
   },
   {
-   "slug": "stop-following-me",
+   "slug": "do-you-perform-the-natural-obligations",
    "date": "2026-10-03",
-   "hook": "STOP FOLLOWING ME!",
-   "topic": "Parodi evolusi manusia stop following me",
+   "hook": "DO YOU PERFORM THE NATURAL OBLIGATIONS?",
+   "topic": "Meme pertanyaan do you perform the natural obligations",
    "lines": [
-    "STOP",
-    "FOLLOWING ME!"
+    "Do you perform",
+    "the natural...",
+    "Obligations?"
    ],
-   "shopee": "https://shopee.co.id/product/269698445/40734913723",
+   "shopee": "https://shopee.co.id/product/269698445/57668701649",
    "tile": {
-    "src": "site/img/stop-following-me/tile.webp",
+    "src": "site/img/do-you-perform-the-natural-obligations/tile.webp",
     "w": 640,
     "h": 706
    },
    "images": [
     {
-     "src": "site/img/stop-following-me/1.webp",
+     "src": "site/img/do-you-perform-the-natural-obligations/1.webp",
      "color": "black",
      "kind": "flat"
     },
     {
-     "src": "site/img/stop-following-me/2.webp",
+     "src": "site/img/do-you-perform-the-natural-obligations/2.webp",
      "color": "white",
      "kind": "flat"
     },
     {
-     "src": "site/img/stop-following-me/3.webp",
+     "src": "site/img/do-you-perform-the-natural-obligations/3.webp",
      "color": "black",
      "kind": "model"
     },
     {
-     "src": "site/img/stop-following-me/4.webp",
+     "src": "site/img/do-you-perform-the-natural-obligations/4.webp",
      "color": "white",
      "kind": "model"
     },
     {
-     "src": "site/img/stop-following-me/5.webp",
+     "src": "site/img/do-you-perform-the-natural-obligations/5.webp",
      "color": "white",
      "kind": "model"
     },
     {
-     "src": "site/img/stop-following-me/6.webp",
+     "src": "site/img/do-you-perform-the-natural-obligations/6.webp",
      "color": "black",
      "kind": "model"
     }
-   ]
+   ],
+   "isNew": false
   },
   {
-   "slug": "balaclava-dog",
+   "slug": "asap-alcohol-solve-all-problem",
    "date": "2026-10-03",
-   "hook": "BALACLAVA DOG",
-   "topic": "Anjing kecil pakai balaclava, meme anjing lucu",
+   "hook": "ASAP ALCOHOL SOLVE ALL PROBLEM",
+   "topic": "Plesetan singkatan ASAP alcohol solve all problem",
    "lines": [
-    "[ilustrasi tanpa teks] anjing pakai balaclava"
+    "ASAP",
+    "Alcohol Solve All Problem"
    ],
-   "shopee": "https://shopee.co.id/product/269698445/55518708511",
+   "shopee": "https://shopee.co.id/product/269698445/54368706737",
    "tile": {
-    "src": "site/img/balaclava-dog/tile.webp",
+    "src": "site/img/asap-alcohol-solve-all-problem/tile.webp",
     "w": 640,
     "h": 706
    },
    "images": [
     {
-     "src": "site/img/balaclava-dog/1.webp",
+     "src": "site/img/asap-alcohol-solve-all-problem/1.webp",
      "color": "black",
      "kind": "flat"
     },
     {
-     "src": "site/img/balaclava-dog/2.webp",
+     "src": "site/img/asap-alcohol-solve-all-problem/2.webp",
      "color": "white",
      "kind": "flat"
     },
     {
-     "src": "site/img/balaclava-dog/3.webp",
+     "src": "site/img/asap-alcohol-solve-all-problem/3.webp",
      "color": "black",
      "kind": "model"
     },
     {
-     "src": "site/img/balaclava-dog/4.webp",
+     "src": "site/img/asap-alcohol-solve-all-problem/4.webp",
      "color": "white",
      "kind": "model"
     },
     {
-     "src": "site/img/balaclava-dog/5.webp",
+     "src": "site/img/asap-alcohol-solve-all-problem/5.webp",
      "color": "white",
      "kind": "model"
     },
     {
-     "src": "site/img/balaclava-dog/6.webp",
+     "src": "site/img/asap-alcohol-solve-all-problem/6.webp",
      "color": "black",
      "kind": "model"
     }
-   ]
+   ],
+   "isNew": false
   },
   {
-   "slug": "too-capy-to-care",
+   "slug": "corruption-is-not-bad",
    "date": "2026-10-03",
-   "hook": "TOO CAPY TO CARE",
-   "topic": "Capybara santai pakai kacamata hitam, too capy to care",
+   "hook": "CORRUPTION IS NOT BAD",
+   "topic": "Meme satire corruption is not bad I defend it",
    "lines": [
-    "TOO CAPY",
-    "TO CARE"
+    "Corruption",
+    "is not bad",
+    "Corruption is only bad",
+    "if I am not involved",
+    "But if I am part of that corruption",
+    "I defend it"
    ],
-   "shopee": "https://shopee.co.id/product/269698445/52918708400",
+   "shopee": "https://shopee.co.id/product/269698445/53118701739",
    "tile": {
-    "src": "site/img/too-capy-to-care/tile.webp",
+    "src": "site/img/corruption-is-not-bad/tile.webp",
     "w": 640,
     "h": 706
    },
    "images": [
     {
-     "src": "site/img/too-capy-to-care/1.webp",
+     "src": "site/img/corruption-is-not-bad/1.webp",
      "color": "black",
      "kind": "flat"
     },
     {
-     "src": "site/img/too-capy-to-care/2.webp",
+     "src": "site/img/corruption-is-not-bad/2.webp",
      "color": "white",
      "kind": "flat"
     },
     {
-     "src": "site/img/too-capy-to-care/3.webp",
+     "src": "site/img/corruption-is-not-bad/3.webp",
      "color": "black",
      "kind": "model"
     },
     {
-     "src": "site/img/too-capy-to-care/4.webp",
+     "src": "site/img/corruption-is-not-bad/4.webp",
      "color": "white",
      "kind": "model"
     },
     {
-     "src": "site/img/too-capy-to-care/5.webp",
+     "src": "site/img/corruption-is-not-bad/5.webp",
      "color": "white",
      "kind": "model"
     },
     {
-     "src": "site/img/too-capy-to-care/6.webp",
+     "src": "site/img/corruption-is-not-bad/6.webp",
      "color": "black",
      "kind": "model"
     }
-   ]
+   ],
+   "isNew": false
   },
   {
-   "slug": "please-don-t-ask-me-how-i-m-doing",
+   "slug": "what-is-your-name-ezekiel",
    "date": "2026-10-03",
-   "hook": "Please, Don't Ask Me How I'm Doing",
-   "topic": "Kodok lesu please dont ask me how im doing",
+   "hook": "WHAT IS YOUR NAME EZEKIEL",
+   "topic": "Meme dialog what is your name Tony Ezekiel",
    "lines": [
-    "PLEASE, DON'T ASK ME",
-    "HOW I'M DOING"
+    "What's Your Name?",
+    "What?!?",
+    "TONY!",
+    "What - Is - Your - Name?",
+    "F*ck you, Tony!",
+    "What's your name?",
+    "Ezekiel!",
+    "F*ck you, Ezekiel!",
+    "F*ck You",
+    "F*CK YOU",
+    "F*ck You",
+    "Aye, you know what I did last night?",
+    "You better not bring my mother into this!",
+    "You know what I did?",
+    "You better not!",
+    "I built that fire over there...",
+    "And I f*cked your mother next to it!",
+    "OH!",
+    "F*ck You, Ezekiel!",
+    "F*CK YOU"
    ],
-   "shopee": "https://shopee.co.id/product/269698445/45668742387",
+   "shopee": "https://shopee.co.id/product/269698445/50018711417",
    "tile": {
-    "src": "site/img/please-don-t-ask-me-how-i-m-doing/tile.webp",
+    "src": "site/img/what-is-your-name-ezekiel/tile.webp",
     "w": 640,
     "h": 706
    },
    "images": [
     {
-     "src": "site/img/please-don-t-ask-me-how-i-m-doing/1.webp",
+     "src": "site/img/what-is-your-name-ezekiel/1.webp",
      "color": "black",
      "kind": "flat"
     },
     {
-     "src": "site/img/please-don-t-ask-me-how-i-m-doing/2.webp",
+     "src": "site/img/what-is-your-name-ezekiel/2.webp",
      "color": "white",
      "kind": "flat"
     },
     {
-     "src": "site/img/please-don-t-ask-me-how-i-m-doing/3.webp",
+     "src": "site/img/what-is-your-name-ezekiel/3.webp",
      "color": "black",
      "kind": "model"
     },
     {
-     "src": "site/img/please-don-t-ask-me-how-i-m-doing/4.webp",
+     "src": "site/img/what-is-your-name-ezekiel/4.webp",
      "color": "white",
      "kind": "model"
     },
     {
-     "src": "site/img/please-don-t-ask-me-how-i-m-doing/5.webp",
+     "src": "site/img/what-is-your-name-ezekiel/5.webp",
      "color": "white",
      "kind": "model"
     },
     {
-     "src": "site/img/please-don-t-ask-me-how-i-m-doing/6.webp",
+     "src": "site/img/what-is-your-name-ezekiel/6.webp",
      "color": "black",
      "kind": "model"
     }
-   ]
-  },
-  {
-   "slug": "energy-loading-please-wait",
-   "date": "2026-10-03",
-   "hook": "ENERGY LOADING PLEASE WAIT",
-   "topic": "Sloth tidur di baterai lowbat, energy loading",
-   "lines": [
-    "ENERGY",
-    "LOADING",
-    "PLEASE WAIT..."
    ],
-   "shopee": "https://shopee.co.id/product/269698445/45868747387",
-   "tile": {
-    "src": "site/img/energy-loading-please-wait/tile.webp",
-    "w": 640,
-    "h": 706
-   },
-   "images": [
-    {
-     "src": "site/img/energy-loading-please-wait/1.webp",
-     "color": "black",
-     "kind": "flat"
-    },
-    {
-     "src": "site/img/energy-loading-please-wait/2.webp",
-     "color": "white",
-     "kind": "flat"
-    },
-    {
-     "src": "site/img/energy-loading-please-wait/3.webp",
-     "color": "black",
-     "kind": "model"
-    },
-    {
-     "src": "site/img/energy-loading-please-wait/4.webp",
-     "color": "white",
-     "kind": "model"
-    },
-    {
-     "src": "site/img/energy-loading-please-wait/5.webp",
-     "color": "white",
-     "kind": "model"
-    },
-    {
-     "src": "site/img/energy-loading-please-wait/6.webp",
-     "color": "black",
-     "kind": "model"
-    }
-   ]
-  },
-  {
-   "slug": "awoo",
-   "date": "2026-10-03",
-   "hook": "AWOO",
-   "topic": "Anjing shiba melolong awoo, meme anjing",
-   "lines": [
-    "AWOO"
-   ],
-   "shopee": "https://shopee.co.id/product/269698445/49368742350",
-   "tile": {
-    "src": "site/img/awoo/tile.webp",
-    "w": 640,
-    "h": 706
-   },
-   "images": [
-    {
-     "src": "site/img/awoo/1.webp",
-     "color": "black",
-     "kind": "flat"
-    },
-    {
-     "src": "site/img/awoo/2.webp",
-     "color": "white",
-     "kind": "flat"
-    },
-    {
-     "src": "site/img/awoo/3.webp",
-     "color": "black",
-     "kind": "model"
-    },
-    {
-     "src": "site/img/awoo/4.webp",
-     "color": "white",
-     "kind": "model"
-    },
-    {
-     "src": "site/img/awoo/5.webp",
-     "color": "white",
-     "kind": "model"
-    },
-    {
-     "src": "site/img/awoo/6.webp",
-     "color": "black",
-     "kind": "model"
-    }
-   ]
-  },
-  {
-   "slug": "67",
-   "date": "2026-10-03",
-   "hook": "67",
-   "topic": "Meme 6 7 six seven gestur tangan",
-   "lines": [
-    "6",
-    "7"
-   ],
-   "shopee": "https://shopee.co.id/product/269698445/26195995244",
-   "tile": {
-    "src": "site/img/67/tile.webp",
-    "w": 640,
-    "h": 706
-   },
-   "images": [
-    {
-     "src": "site/img/67/1.webp",
-     "color": "black",
-     "kind": "flat"
-    },
-    {
-     "src": "site/img/67/2.webp",
-     "color": "white",
-     "kind": "flat"
-    },
-    {
-     "src": "site/img/67/3.webp",
-     "color": "black",
-     "kind": "model"
-    },
-    {
-     "src": "site/img/67/4.webp",
-     "color": "white",
-     "kind": "model"
-    },
-    {
-     "src": "site/img/67/5.webp",
-     "color": "white",
-     "kind": "model"
-    },
-    {
-     "src": "site/img/67/6.webp",
-     "color": "black",
-     "kind": "model"
-    }
-   ]
-  },
-  {
-   "slug": "aaaa",
-   "date": "2026-10-03",
-   "hook": "AAAA",
-   "topic": "Bebek teriak AAAA, meme bebek panik",
-   "lines": [
-    "AAAA"
-   ],
-   "shopee": "https://shopee.co.id/product/269698445/45268747377",
-   "tile": {
-    "src": "site/img/aaaa/tile.webp",
-    "w": 640,
-    "h": 706
-   },
-   "images": [
-    {
-     "src": "site/img/aaaa/1.webp",
-     "color": "black",
-     "kind": "flat"
-    },
-    {
-     "src": "site/img/aaaa/2.webp",
-     "color": "white",
-     "kind": "flat"
-    },
-    {
-     "src": "site/img/aaaa/3.webp",
-     "color": "black",
-     "kind": "model"
-    },
-    {
-     "src": "site/img/aaaa/4.webp",
-     "color": "white",
-     "kind": "model"
-    },
-    {
-     "src": "site/img/aaaa/5.webp",
-     "color": "white",
-     "kind": "model"
-    },
-    {
-     "src": "site/img/aaaa/6.webp",
-     "color": "black",
-     "kind": "model"
-    }
-   ]
-  },
-  {
-   "slug": "green-what-is-your-problem",
-   "date": "2026-09-29",
-   "hook": "GREEN WHAT IS YOUR PROBLEM",
-   "topic": "Tense1983 rage di CS:GO, streamer Spanyol, meme gamer",
-   "lines": [
-    "Green, green",
-    "What is your problem",
-    "green?",
-    "What is your problem?",
-    "Me say alone ramp!",
-    "Me say alone ramp!"
-   ],
-   "shopee": "https://shopee.co.id/product/269698445/44718558288",
-   "tile": {
-    "src": "site/img/green-what-is-your-problem/tile.webp",
-    "w": 640,
-    "h": 706
-   },
-   "images": [
-    {
-     "src": "site/img/green-what-is-your-problem/1.webp",
-     "color": "black",
-     "kind": "flat"
-    },
-    {
-     "src": "site/img/green-what-is-your-problem/2.webp",
-     "color": "white",
-     "kind": "flat"
-    },
-    {
-     "src": "site/img/green-what-is-your-problem/3.webp",
-     "color": "black",
-     "kind": "model"
-    },
-    {
-     "src": "site/img/green-what-is-your-problem/4.webp",
-     "color": "white",
-     "kind": "model"
-    },
-    {
-     "src": "site/img/green-what-is-your-problem/5.webp",
-     "color": "white",
-     "kind": "model"
-    },
-    {
-     "src": "site/img/green-what-is-your-problem/6.webp",
-     "color": "black",
-     "kind": "model"
-    }
-   ]
+   "isNew": false
   },
   {
    "slug": "in-the-beninging",
@@ -1797,7 +1777,167 @@
      "color": "black",
      "kind": "model"
     }
-   ]
+   ],
+   "isNew": false
+  },
+  {
+   "slug": "green-what-is-your-problem",
+   "date": "2026-09-29",
+   "hook": "GREEN WHAT IS YOUR PROBLEM",
+   "topic": "Tense1983 rage di CS:GO, streamer Spanyol, meme gamer",
+   "lines": [
+    "Green, green",
+    "What is your problem",
+    "green?",
+    "What is your problem?",
+    "Me say alone ramp!",
+    "Me say alone ramp!"
+   ],
+   "shopee": "https://shopee.co.id/product/269698445/44718558288",
+   "tile": {
+    "src": "site/img/green-what-is-your-problem/tile.webp",
+    "w": 640,
+    "h": 706
+   },
+   "images": [
+    {
+     "src": "site/img/green-what-is-your-problem/1.webp",
+     "color": "black",
+     "kind": "flat"
+    },
+    {
+     "src": "site/img/green-what-is-your-problem/2.webp",
+     "color": "white",
+     "kind": "flat"
+    },
+    {
+     "src": "site/img/green-what-is-your-problem/3.webp",
+     "color": "black",
+     "kind": "model"
+    },
+    {
+     "src": "site/img/green-what-is-your-problem/4.webp",
+     "color": "white",
+     "kind": "model"
+    },
+    {
+     "src": "site/img/green-what-is-your-problem/5.webp",
+     "color": "white",
+     "kind": "model"
+    },
+    {
+     "src": "site/img/green-what-is-your-problem/6.webp",
+     "color": "black",
+     "kind": "model"
+    }
+   ],
+   "isNew": false
+  },
+  {
+   "slug": "saya-dapat-laporan",
+   "date": "2026-09-28",
+   "hook": "SAYA DAPAT LAPORAN",
+   "topic": "Kalimat khas pidato Prabowo, saya dapat laporan",
+   "lines": [
+    "Saya dapat",
+    "LAPORAN",
+    "Saya dapat",
+    "LAPORAN",
+    "Saya dapat",
+    "LAPORAN"
+   ],
+   "shopee": "https://shopee.co.id/product/269698445/46568504817",
+   "tile": {
+    "src": "site/img/saya-dapat-laporan/tile.webp",
+    "w": 640,
+    "h": 706
+   },
+   "images": [
+    {
+     "src": "site/img/saya-dapat-laporan/1.webp",
+     "color": "black",
+     "kind": "flat"
+    },
+    {
+     "src": "site/img/saya-dapat-laporan/2.webp",
+     "color": "white",
+     "kind": "flat"
+    },
+    {
+     "src": "site/img/saya-dapat-laporan/3.webp",
+     "color": "black",
+     "kind": "model"
+    },
+    {
+     "src": "site/img/saya-dapat-laporan/4.webp",
+     "color": "white",
+     "kind": "model"
+    },
+    {
+     "src": "site/img/saya-dapat-laporan/5.webp",
+     "color": "white",
+     "kind": "model"
+    },
+    {
+     "src": "site/img/saya-dapat-laporan/6.webp",
+     "color": "black",
+     "kind": "model"
+    }
+   ],
+   "isNew": false
+  },
+  {
+   "slug": "saking-pintarnya-jadi-goblok",
+   "date": "2026-09-28",
+   "hook": "SAKING PINTARNYA JADI GOBLOK",
+   "topic": "Pidato Prabowo HUT ke-28 PAN soal pakar, 18 Sep 2026",
+   "lines": [
+    "Terserah pakar-pakar",
+    "yang menganggap dirinya pakar",
+    "Saking pintarnya",
+    "saking pintarnya",
+    "JADI",
+    "GOBLOK"
+   ],
+   "shopee": "https://shopee.co.id/product/269698445/46818505611",
+   "tile": {
+    "src": "site/img/saking-pintarnya-jadi-goblok/tile.webp",
+    "w": 640,
+    "h": 706
+   },
+   "images": [
+    {
+     "src": "site/img/saking-pintarnya-jadi-goblok/1.webp",
+     "color": "black",
+     "kind": "flat"
+    },
+    {
+     "src": "site/img/saking-pintarnya-jadi-goblok/2.webp",
+     "color": "white",
+     "kind": "flat"
+    },
+    {
+     "src": "site/img/saking-pintarnya-jadi-goblok/3.webp",
+     "color": "black",
+     "kind": "model"
+    },
+    {
+     "src": "site/img/saking-pintarnya-jadi-goblok/4.webp",
+     "color": "white",
+     "kind": "model"
+    },
+    {
+     "src": "site/img/saking-pintarnya-jadi-goblok/5.webp",
+     "color": "white",
+     "kind": "model"
+    },
+    {
+     "src": "site/img/saking-pintarnya-jadi-goblok/6.webp",
+     "color": "black",
+     "kind": "model"
+    }
+   ],
+   "isNew": false
   },
   {
    "slug": "ini-lapas-atau-villa",
@@ -1853,111 +1993,69 @@
      "color": "black",
      "kind": "model"
     }
-   ]
+   ],
+   "isNew": false
   },
   {
-   "slug": "saking-pintarnya-jadi-goblok",
-   "date": "2026-09-28",
-   "hook": "SAKING PINTARNYA JADI GOBLOK",
-   "topic": "Pidato Prabowo HUT ke-28 PAN soal pakar, 18 Sep 2026",
+   "slug": "orang-have",
+   "date": "2026-09-26",
+   "hook": "ORANG HAVE",
+   "topic": "Bahasa gaul Gen Z orang have / orang not yet di Threads, Jul-Sep 2026",
    "lines": [
-    "Terserah pakar-pakar",
-    "yang menganggap dirinya pakar",
-    "Saking pintarnya",
-    "saking pintarnya",
-    "JADI",
-    "GOBLOK"
+    "Orang have",
+    "orang haven't",
+    "orang had",
+    "orang is",
+    "orang there is",
+    "orang there isn't",
+    "Orang not yet",
+    "orang need",
+    "orang inside",
+    "orang let go",
+    "orang life",
+    "Orang clear",
+    "orang not clear",
+    "Orang aring"
    ],
-   "shopee": "https://shopee.co.id/product/269698445/46818505611",
+   "shopee": "https://shopee.co.id/product/269698445/48118467138",
    "tile": {
-    "src": "site/img/saking-pintarnya-jadi-goblok/tile.webp",
+    "src": "site/img/orang-have/tile.webp",
     "w": 640,
     "h": 706
    },
    "images": [
     {
-     "src": "site/img/saking-pintarnya-jadi-goblok/1.webp",
+     "src": "site/img/orang-have/1.webp",
      "color": "black",
      "kind": "flat"
     },
     {
-     "src": "site/img/saking-pintarnya-jadi-goblok/2.webp",
+     "src": "site/img/orang-have/2.webp",
      "color": "white",
      "kind": "flat"
     },
     {
-     "src": "site/img/saking-pintarnya-jadi-goblok/3.webp",
+     "src": "site/img/orang-have/3.webp",
      "color": "black",
      "kind": "model"
     },
     {
-     "src": "site/img/saking-pintarnya-jadi-goblok/4.webp",
+     "src": "site/img/orang-have/4.webp",
      "color": "white",
      "kind": "model"
     },
     {
-     "src": "site/img/saking-pintarnya-jadi-goblok/5.webp",
+     "src": "site/img/orang-have/5.webp",
      "color": "white",
      "kind": "model"
     },
     {
-     "src": "site/img/saking-pintarnya-jadi-goblok/6.webp",
+     "src": "site/img/orang-have/6.webp",
      "color": "black",
      "kind": "model"
     }
-   ]
-  },
-  {
-   "slug": "saya-dapat-laporan",
-   "date": "2026-09-28",
-   "hook": "SAYA DAPAT LAPORAN",
-   "topic": "Kalimat khas pidato Prabowo, saya dapat laporan",
-   "lines": [
-    "Saya dapat",
-    "LAPORAN",
-    "Saya dapat",
-    "LAPORAN",
-    "Saya dapat",
-    "LAPORAN"
    ],
-   "shopee": "https://shopee.co.id/product/269698445/46568504817",
-   "tile": {
-    "src": "site/img/saya-dapat-laporan/tile.webp",
-    "w": 640,
-    "h": 706
-   },
-   "images": [
-    {
-     "src": "site/img/saya-dapat-laporan/1.webp",
-     "color": "black",
-     "kind": "flat"
-    },
-    {
-     "src": "site/img/saya-dapat-laporan/2.webp",
-     "color": "white",
-     "kind": "flat"
-    },
-    {
-     "src": "site/img/saya-dapat-laporan/3.webp",
-     "color": "black",
-     "kind": "model"
-    },
-    {
-     "src": "site/img/saya-dapat-laporan/4.webp",
-     "color": "white",
-     "kind": "model"
-    },
-    {
-     "src": "site/img/saya-dapat-laporan/5.webp",
-     "color": "white",
-     "kind": "model"
-    },
-    {
-     "src": "site/img/saya-dapat-laporan/6.webp",
-     "color": "black",
-     "kind": "model"
-    }
-   ]
+   "isNew": false
   },
   {
    "slug": "kenapa-dipecat",
@@ -2019,67 +2117,8 @@
      "color": "black",
      "kind": "model"
     }
-   ]
-  },
-  {
-   "slug": "orang-have",
-   "date": "2026-09-26",
-   "hook": "ORANG HAVE",
-   "topic": "Bahasa gaul Gen Z orang have / orang not yet di Threads, Jul-Sep 2026",
-   "lines": [
-    "Orang have",
-    "orang haven't",
-    "orang had",
-    "orang is",
-    "orang there is",
-    "orang there isn't",
-    "Orang not yet",
-    "orang need",
-    "orang inside",
-    "orang let go",
-    "orang life",
-    "Orang clear",
-    "orang not clear",
-    "Orang aring"
    ],
-   "shopee": "https://shopee.co.id/product/269698445/48118467138",
-   "tile": {
-    "src": "site/img/orang-have/tile.webp",
-    "w": 640,
-    "h": 706
-   },
-   "images": [
-    {
-     "src": "site/img/orang-have/1.webp",
-     "color": "black",
-     "kind": "flat"
-    },
-    {
-     "src": "site/img/orang-have/2.webp",
-     "color": "white",
-     "kind": "flat"
-    },
-    {
-     "src": "site/img/orang-have/3.webp",
-     "color": "black",
-     "kind": "model"
-    },
-    {
-     "src": "site/img/orang-have/4.webp",
-     "color": "white",
-     "kind": "model"
-    },
-    {
-     "src": "site/img/orang-have/5.webp",
-     "color": "white",
-     "kind": "model"
-    },
-    {
-     "src": "site/img/orang-have/6.webp",
-     "color": "black",
-     "kind": "model"
-    }
-   ]
+   "isNew": false
   }
  ]
 }

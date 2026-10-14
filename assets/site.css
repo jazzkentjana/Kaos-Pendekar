@@ -227,32 +227,37 @@ body.loading .hint { opacity: 0; }
 .m-collection { position: relative; }
 .m-sticky {
   position: sticky; top: 0; z-index: 20; background: var(--bg);
-  padding: calc(var(--bar-h) - 6px) 22px 12px; border-bottom: 1.5px solid var(--accent);
+  padding: calc(var(--bar-h) - 6px) 16px 10px; border-bottom: 1.5px solid var(--accent);
 }
-.m-sticky-row { display: flex; justify-content: space-between; align-items: baseline; }
-.m-h2 { font-family: var(--display); font-weight: 400; text-transform: uppercase; font-size: 54px; line-height: .9; margin: 0; }
-.m-list-link { font-size: 12px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--accent); text-decoration: none; }
-.m-meta { margin: 4px 0 8px; font-size: 13px; color: var(--muted); }
-.m-search input { font-size: 16px; }
+.m-sticky-row { display: flex; justify-content: space-between; align-items: center; }
+.m-h2 { font-family: var(--display); font-weight: 400; text-transform: uppercase; font-size: 54px; line-height: .9; margin: 0; transition: font-size .25s; }
+.m-list-link {
+  display: inline-flex; align-items: center; height: 32px; padding: 0 13px; border: 1.5px solid var(--accent); border-radius: 999px;
+  font-size: 12px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--accent); text-decoration: none;
+}
+.m-meta { margin: 4px 0 6px; font-size: 13px; color: var(--muted); max-height: 20px; overflow: hidden; transition: max-height .25s, margin .25s, opacity .2s; }
+.m-search input { font-size: 16px; accent-color: var(--accent); }
+.m-sticky.compact .m-h2 { font-size: 30px; }
+.m-sticky.compact .m-meta { max-height: 0; margin: 0; opacity: 0; }
 
-.m-cards { position: relative; }
-.m-card {
-  position: sticky; top: var(--sticky-h, 200px); height: calc(100svh - var(--sticky-h, 200px));
-  display: grid; place-items: center; background: var(--bg); text-decoration: none; overflow: hidden;
-  border-bottom: 1px solid var(--line);
+.m-cards { min-height: 80svh; display: grid; grid-template-columns: 1fr 1fr; gap: 0 12px; padding: 18px 14px 10px; align-items: start; }
+.m-col { display: flex; flex-direction: column; gap: 26px; }
+.m-col-r { padding-top: 26vw; }
+.m-card { display: block; text-decoration: none; color: var(--ink); -webkit-tap-highlight-color: transparent; }
+.m-card:active .m-pic { transform: scale(.96) rotate(var(--tilt)); }
+.m-pic { position: relative; transform: rotate(var(--tilt)); transition: transform .2s; }
+.m-pic img { width: 100%; height: auto; mix-blend-mode: multiply; }
+.m-hook {
+  display: block; margin-top: 6px; font-family: var(--display); text-transform: uppercase;
+  font-size: 19px; line-height: .98; letter-spacing: .005em; overflow-wrap: anywhere;
 }
-.m-card img { width: min(78vw, 46svh); height: auto; mix-blend-mode: multiply; }
-.m-card .m-price { position: absolute; left: 22px; bottom: 18px; font-size: 13px; font-weight: 600; }
-.m-card .m-go { position: absolute; right: 22px; bottom: 18px; font-size: 12px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--accent); }
+.m-price { display: block; margin-top: 4px; font-size: 12px; color: var(--muted); }
 .burst {
-  position: absolute; top: 6%; right: 4%; width: 46vw; max-width: 210px; aspect-ratio: 1;
-  display: grid; place-items: center; transform: rotate(8deg); z-index: 2;
+  position: absolute; top: -10px; right: -8px; width: 64px; aspect-ratio: 1;
+  display: grid; place-items: center; transform: rotate(12deg); z-index: 2;
 }
 .burst svg { position: absolute; inset: 0; width: 100%; height: 100%; fill: var(--accent); }
-.burst span {
-  position: relative; width: 62%; text-align: center; font-family: var(--display); text-transform: uppercase;
-  color: var(--accent-ink); line-height: .92; overflow-wrap: anywhere;
-}
+.burst span { position: relative; font-family: var(--display); text-transform: uppercase; color: var(--accent-ink); font-size: 17px; line-height: 1; }
 .m-foot { padding: 60px 22px 70px; text-align: center; }
 .m-foot p { color: var(--muted); font-size: 12px; margin: 22px 0 0; }
 

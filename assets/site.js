@@ -504,30 +504,36 @@
       const place = Object.entries(p).filter(([k]) => ["left", "right", "top", "bottom"].includes(k)).map(([k, v]) => `${k}:${v}`).join(";");
       return `<img src="${it.tile.src}" alt="" style="${place};width:${p.w}vw;rotate:${p.rot}deg;animation-delay:${-i * 1.4}s">`;
     }).join("");
-    $("#m-cards").innerHTML = S.items.map((it) => {
-      const n = it.hook.length;
-      const fs = n <= 6 ? 13 : n <= 12 ? 10 : n <= 20 ? 8.2 : n <= 30 ? 6.8 : 5.8;
-      return `<a class="m-card" href="#/kaos/${encodeURIComponent(it.slug)}" data-slug="${esc(it.slug)}">
-        <div class="burst"><svg viewBox="0 0 100 100" aria-hidden="true"><path d="${path}"/></svg><span style="font-size:min(${fs}vw, ${fs * 4.6}px)">${esc(it.hook)}</span></div>
-        <img src="${it.tile.src}" alt="${esc(it.hook)}" loading="lazy" decoding="async">
-        <span class="m-price">${rupiah(89000)} – ${rupiah(99000)}</span>
-        <span class="m-go">Lihat →</span>
-      </a>`;
-    }).join("");
-    setStickyH();
+    S.mPath = path;
+    renderMobileGrid("");
+    const mv = $("#mobile-view"), sticky = $(".m-sticky");
+    mv.addEventListener("scroll", () => {
+      sticky.classList.toggle("compact", mv.scrollTop > $("#koleksi").offsetTop + 30);
+    }, { passive: true });
   }
-  function setStickyH() {
-    const h = $(".m-sticky").getBoundingClientRect().height;
-    if (h) $("#m-cards").style.setProperty("--sticky-h", h + "px");
+
+  // Staggered two-column grid: items alternate left/right so reading order stays newest first,
+  // and the right column starts lower to keep a loose, collage feel.
+  function renderMobileGrid(q) {
+    const items = S.items.filter((it) => matches(it, q));
+    const card = (it, i) => `<a class="m-card" href="#/kaos/${encodeURIComponent(it.slug)}" style="--tilt:${((i * 37) % 7 - 3) * 0.6}deg">
+        <div class="m-pic">
+          <img src="${it.tile.src}" alt="" loading="lazy" decoding="async" width="${it.tile.w}" height="${it.tile.h}">
+          ${it.isNew ? `<div class="burst"><svg viewBox="0 0 100 100" aria-hidden="true"><path d="${S.mPath}"/></svg><span>Baru</span></div>` : ""}
+        </div>
+        <span class="m-hook">${esc(it.hook)}</span>
+        <span class="m-price">Mulai ${rupiah(89000)}</span>
+      </a>`;
+    const left = [], right = [];
+    items.forEach((it, i) => (i % 2 ? right : left).push(card(it, i)));
+    $("#m-cards").innerHTML = items.length
+      ? `<div class="m-col">${left.join("")}</div><div class="m-col m-col-r">${right.join("")}</div>` : "";
+    $("#m-empty").hidden = items.length > 0;
   }
   $("#m-search").addEventListener("input", (e) => {
-    const q = norm(e.target.value);
-    let shown = 0;
-    $$(".m-card").forEach((c) => {
-      const ok = matches(S.bySlug[c.dataset.slug], q);
-      c.hidden = !ok; shown += ok;
-    });
-    $("#m-empty").hidden = shown > 0;
+    renderMobileGrid(norm(e.target.value));
+    const mv = $("#mobile-view"), top = $("#koleksi").offsetTop;
+    if (mv.scrollTop > top) mv.scrollTop = top + 31;
   });
   $("#m-cta").addEventListener("click", (e) => {
     e.preventDefault();
@@ -575,7 +581,6 @@
     cancelAnimationFrame(rz);
     rz = requestAnimationFrame(() => {
       applyCam();
-      setStickyH();
       if (current) fitGiant(pTitle, current.hook);
     });
   });
@@ -637,7 +642,7 @@
     else hintLocked = false;
   }
 
-  fetch("site/data.json?v=202610141703")
+  fetch("site/data.json?v=202610141716")
     .then((r) => r.json())
     .then((data) => {
       S.data = data;
