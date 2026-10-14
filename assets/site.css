@@ -52,8 +52,7 @@ body.r-list .topbar { background: var(--bg); }
 body.r-list .nav-left::before { content: "← "; }
 
 /* ---------- Desktop canvas ---------- */
-#canvas-view { cursor: grab; touch-action: none; }
-#canvas-view.dragging { cursor: grabbing; }
+#canvas-view { touch-action: none; }
 .world { position: absolute; left: 0; top: 0; will-change: transform; }
 .tile {
   position: absolute; display: block; cursor: none;
@@ -61,9 +60,9 @@ body.r-list .nav-left::before { content: "← "; }
   transform-origin: center;
 }
 .tile img { width: 100%; height: 100%; object-fit: contain; mix-blend-mode: multiply; pointer-events: none; user-select: none; -webkit-user-drag: none; }
-.tile:hover, .tile:focus-visible { transform: scale(1.22); z-index: 30; }
+.tile.hot, .tile:focus-visible { transform: scale(1.22); z-index: 30; }
 .tile:focus-visible { outline: 2px solid var(--accent); outline-offset: 6px; }
-.world.has-hover .tile:not(:hover) { filter: grayscale(.2) opacity(.85); }
+.world.has-hover .tile:not(.hot) { filter: grayscale(.2) opacity(.85); }
 
 .giant {
   position: fixed; left: 2vw; right: 2vw; bottom: calc(1.5vh + .07em + env(safe-area-inset-bottom)); z-index: 35; margin: 0;

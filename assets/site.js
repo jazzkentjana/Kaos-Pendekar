@@ -68,9 +68,9 @@
     const items = S.items;
     const rnd = mulberry32(20261014);
     const N = items.length;
-    const cellW = 390, cellH = 360, pad = 170;
+    const cellW = 360, cellH = 330, pad = 90;
     const cols = Math.max(3, Math.ceil(Math.sqrt(N * 1.45)));
-    const rows = Math.ceil(N / cols) + (N > 12 ? 1 : 0);
+    const rows = Math.ceil(N / cols);
     S.world.w = cols * cellW + pad * 2;
     S.world.h = rows * cellH + pad * 2;
     worldEl.style.width = S.world.w + "px";
@@ -122,14 +122,37 @@
   }
   function centerCamera() {
     S.cam.x = (S.world.w - innerWidth) / 2;
-    S.cam.y = (S.world.h - innerHeight) / 2 - 20;
+    S.cam.y = (S.world.h - innerHeight) / 2;
+    follow.tx = S.cam.x; follow.ty = S.cam.y;
     applyCam();
   }
 
-  // Drag, inertia, wheel / trackpad panning
+  // Mouse: the canvas follows the pointer with an eased lag (Snog style); edges of the
+  // screen map to edges of the canvas, so it feels bounded.
+  // Touch / pen: drag with inertia.
+  const follow = { tx: 0, ty: 0, raf: 0 };
+  const EDGE = 0.1; // outer 10% of the screen already reaches the canvas edge
+  function followLoop() {
+    const dx = follow.tx - S.cam.x, dy = follow.ty - S.cam.y;
+    S.cam.x += dx * 0.06; S.cam.y += dy * 0.06;
+    applyCam();
+    updateHot();
+    follow.raf = Math.hypot(dx, dy) > 0.4 ? requestAnimationFrame(followLoop) : 0;
+  }
+  canvas.addEventListener("pointermove", (e) => {
+    if (e.pointerType !== "mouse" || !body.classList.contains("r-home") || S.flown) return;
+    const u = Math.min(1, Math.max(0, (e.clientX / innerWidth - EDGE) / (1 - 2 * EDGE)));
+    const v = Math.min(1, Math.max(0, (e.clientY / innerHeight - EDGE) / (1 - 2 * EDGE)));
+    const vw = innerWidth, vh = innerHeight;
+    follow.tx = u * (S.world.w - vw);
+    follow.ty = -vh * 0.06 + v * (S.world.h - vh + vh * 0.06);
+    if (!follow.raf) follow.raf = requestAnimationFrame(followLoop);
+    if (Math.abs(u - 0.5) > 0.15 || Math.abs(v - 0.5) > 0.15) hideHint();
+  });
+
   let drag = null, moved = false, inertia = 0;
   canvas.addEventListener("pointerdown", (e) => {
-    if (e.button !== 0 || !body.classList.contains("r-home")) return;
+    if (e.pointerType === "mouse" || !body.classList.contains("r-home")) return;
     cancelAnimationFrame(inertia);
     drag = { x: e.clientX, y: e.clientY, cx: S.cam.x, cy: S.cam.y, vx: 0, vy: 0, t: performance.now(), lx: e.clientX, ly: e.clientY };
     moved = false;
@@ -138,7 +161,7 @@
     if (e.pointerType === "mouse") cursor.style.translate = `${e.clientX}px ${e.clientY}px`;
     if (!drag) return;
     const dx = e.clientX - drag.x, dy = e.clientY - drag.y;
-    if (!moved && Math.hypot(dx, dy) > 6) { moved = true; canvas.classList.add("dragging"); hideHint(); }
+    if (!moved && Math.hypot(dx, dy) > 6) { moved = true; hideHint(); }
     if (!moved) return;
     const now = performance.now(), dt = Math.max(1, now - drag.t);
     drag.vx = (e.clientX - drag.lx) / dt; drag.vy = (e.clientY - drag.ly) / dt;
@@ -148,7 +171,6 @@
   });
   addEventListener("pointerup", () => {
     if (!drag) return;
-    canvas.classList.remove("dragging");
     if (moved) {
       let vx = drag.vx * 16, vy = drag.vy * 16;
       const step = () => {
@@ -160,27 +182,28 @@
     }
     drag = null;
   });
-  canvas.addEventListener("wheel", (e) => {
-    if (!body.classList.contains("r-home")) return;
-    e.preventDefault();
-    cancelAnimationFrame(inertia);
-    S.cam.x += e.deltaX; S.cam.y += e.deltaY;
-    applyCam(); hideHint();
-  }, { passive: false });
 
   function hideHint() { hint.classList.add("gone"); }
 
-  // Hover: tile grows, hook fills the bottom of the screen, "Lihat" circle follows the pointer
-  worldEl.addEventListener("pointerover", (e) => {
-    const t = e.target.closest(".tile");
-    if (!t || S.flown) return;
-    showHover(t);
+  // Hover is worked out from the point under the mouse every frame, because the canvas
+  // keeps moving under a still cursor and :hover would go stale.
+  let hot = null;
+  const mouse = { x: -1, y: -1 };
+  function updateHot() {
+    if (S.flown || mouse.x < 0) return;
+    const el = document.elementFromPoint(mouse.x, mouse.y);
+    const t = el && el.closest ? el.closest(".tile") : null;
+    if (t === hot) return;
+    if (hot) hot.classList.remove("hot");
+    hot = t;
+    if (t) { t.classList.add("hot"); showHover(t); } else hideHover();
+  }
+  addEventListener("pointermove", (e) => {
+    if (e.pointerType !== "mouse") return;
+    mouse.x = e.clientX; mouse.y = e.clientY;
+    if (body.classList.contains("r-home")) updateHot();
   });
-  worldEl.addEventListener("pointerout", (e) => {
-    const t = e.target.closest(".tile");
-    if (!t || (e.relatedTarget && t.contains(e.relatedTarget))) return;
-    hideHover();
-  });
+  canvas.addEventListener("pointerleave", () => { mouse.x = -1; if (hot) hot.classList.remove("hot"); hot = null; hideHover(); });
   worldEl.addEventListener("focusin", (e) => { const t = e.target.closest(".tile"); if (t) showHover(t, true); });
   worldEl.addEventListener("focusout", hideHover);
   function showHover(t, keyboard) {
@@ -253,6 +276,8 @@
     const f = S.flown;
     if (!f) return;
     S.flown = null;
+    if (hot) hot.classList.remove("hot");
+    hot = null;
     hoverTitle.classList.remove("on");
     f.tile.style.visibility = "";
     f.tile.animate([{ transform: "scale(.6)", opacity: 0 }, { transform: "none", opacity: 1 }], { duration: 500, easing: EASE });
