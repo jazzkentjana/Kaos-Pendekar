@@ -68,7 +68,7 @@
     const items = S.items;
     const rnd = mulberry32(20261014);
     const N = items.length;
-    const cellW = 360, cellH = 330, pad = 90;
+    const cellW = 290, cellH = 265, pad = 50;
     const cols = Math.max(3, Math.ceil(Math.sqrt(N * 1.45)));
     const rows = Math.ceil(N / cols);
     S.world.w = cols * cellW + pad * 2;
@@ -90,11 +90,11 @@
       const c = cells[k];
       const ar = it.tile.h / it.tile.w;
       const roll = rnd();
-      let w = roll < 0.22 ? 290 + rnd() * 90 : roll < 0.75 ? 185 + rnd() * 75 : 115 + rnd() * 55;
-      if (w * ar > 370) w = 370 / ar;
+      let w = roll < 0.2 ? 255 + rnd() * 70 : roll < 0.75 ? 175 + rnd() * 60 : 120 + rnd() * 45;
+      if (w * ar > 320) w = 320 / ar;
       const h = w * ar;
-      const x = pad + c.cx * cellW + rnd() * Math.max(8, cellW - w * 0.8);
-      const y = pad + c.cy * cellH + rnd() * Math.max(8, cellH - h * 0.8);
+      const x = pad + c.cx * cellW + (rnd() - 0.15) * Math.max(8, cellW - w * 0.6);
+      const y = pad + c.cy * cellH + (rnd() - 0.15) * Math.max(8, cellH - h * 0.6);
       const a = document.createElement("a");
       a.className = "tile";
       a.href = "#/kaos/" + encodeURIComponent(it.slug);
@@ -476,6 +476,7 @@
     const h = location.hash.replace(/^#/, "") || "/";
     const m = h.match(/^\/kaos\/([^/?#]+)/);
     body.classList.remove("r-home", "r-list", "r-product");
+    $(".nav-left").setAttribute("href", h.startsWith("/katalog") ? "#/" : "#/katalog");
     if (m) {
       const it = S.bySlug[decodeURIComponent(m[1])];
       if (!it) { location.replace("#/"); return; }
@@ -511,7 +512,44 @@
   mq.addEventListener("change", setMode);
   addEventListener("hashchange", route);
 
-  fetch("site/data.json")
+  /* ---------- Intro: show the logo for at least ~1.2s while tiles download, then hand off ---------- */
+  const T0 = performance.now();
+  function waitForImages(imgs, ms) {
+    const all = Promise.all(imgs.map((im) => (im.decode ? im.decode().catch(() => {}) : Promise.resolve())));
+    return Promise.race([all, new Promise((r) => setTimeout(r, ms))]);
+  }
+  async function reveal() {
+    const intro = $("#intro");
+    const mobile = mq.matches;
+    const imgs = mobile ? $$("#m-float img") : $$(".tile img");
+    await waitForImages(imgs, 4000);
+    const left = 1200 - (performance.now() - T0);
+    if (left > 0) await new Promise((r) => setTimeout(r, left));
+    const logo = $("#intro-logo");
+    const from = logo.getBoundingClientRect();
+    const to = $(".brand img").getBoundingClientRect();
+    const dx = to.left + to.width / 2 - (from.left + from.width / 2);
+    const dy = to.top + to.height / 2 - (from.top + from.height / 2);
+    const sc = to.width / from.width;
+    logo.style.animation = "none";
+    const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+    const d = reduce ? 1 : 750;
+    logo.animate([{ transform: "none" }, { transform: `translate(${dx}px, ${dy}px) scale(${sc})` }], { duration: d, easing: EASE, fill: "forwards" });
+    $(".intro-bg", intro).animate([{ opacity: 1 }, { opacity: 0 }], { duration: d * 0.8, delay: d * 0.35, easing: "ease", fill: "forwards" });
+    if (!reduce && body.classList.contains("r-home") && !mobile) {
+      const cx = innerWidth / 2, cy = innerHeight / 2;
+      S.tiles.forEach((t) => {
+        const r = t.getBoundingClientRect();
+        if (r.right < 0 || r.left > innerWidth || r.bottom < 0 || r.top > innerHeight) return;
+        const dist = Math.hypot(r.left + r.width / 2 - cx, r.top + r.height / 2 - cy);
+        t.animate([{ opacity: 0, transform: "scale(.55)" }, { opacity: 1, transform: "none" }],
+          { duration: 650, delay: 280 + dist * 0.45, easing: "cubic-bezier(.2,.8,.2,1)", fill: "backwards" });
+      });
+    }
+    setTimeout(() => { body.classList.remove("loading"); intro.remove(); }, d + 150);
+  }
+
+  fetch("site/data.json?v=202610141649")
     .then((r) => r.json())
     .then((data) => {
       S.data = data;
@@ -523,6 +561,7 @@
       buildCanvas();
       setMode();
       route();
+      reveal();
     })
     .catch((err) => {
       console.error(err);

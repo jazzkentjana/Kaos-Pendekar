@@ -107,7 +107,20 @@ def main():
     }
     with open(os.path.join(OUT, "data.json"), "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=1)
+    stamp_version()
     print(f"{len(items)} designs written to site/data.json")
+
+
+def stamp_version():
+    """Bump ?v= on the CSS, JS and data links so browsers fetch the new files."""
+    import re
+    import time
+    v = time.strftime("%Y%m%d%H%M")
+    for rel in ("index.html", "assets/site.js"):
+        path = os.path.join(ROOT, rel)
+        text = open(path, encoding="utf-8").read()
+        text = re.sub(r"(site\.css|site\.js|data\.json)\?v=[\w]+", lambda m: f"{m.group(1)}?v={v}", text)
+        open(path, "w", encoding="utf-8").write(text)
 
 
 if __name__ == "__main__":

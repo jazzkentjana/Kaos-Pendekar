@@ -271,3 +271,11 @@ body.r-list .nav-left::before { content: "← "; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; }
 }
+
+/* ---------- Intro ---------- */
+.intro { position: fixed; inset: 0; z-index: 90; display: grid; place-items: center; pointer-events: none; }
+.intro-bg { position: absolute; inset: 0; background: var(--bg); }
+.intro-logo { position: relative; width: 180px; height: 180px; animation: intro-in .7s cubic-bezier(.2,.8,.2,1) both, intro-bob 1.6s .7s ease-in-out infinite; }
+@keyframes intro-in { from { opacity: 0; transform: scale(.6) rotate(-14deg); } }
+@keyframes intro-bob { 50% { transform: scale(1.04) rotate(3deg); } }
+body.loading .brand { opacity: 0; }
