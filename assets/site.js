@@ -183,7 +183,8 @@
     drag = null;
   });
 
-  function hideHint() { hint.classList.add("gone"); }
+  let hintLocked = true; // the hint stays until its intro animation has played
+  function hideHint() { if (!hintLocked) hint.classList.add("gone"); }
 
   // Hover is worked out from the point under the mouse every frame, because the canvas
   // keeps moving under a still cursor and :hover would go stale.
@@ -587,6 +588,22 @@
     const all = Promise.all(imgs.map((im) => (im.decode ? im.decode().catch(() => {}) : Promise.resolve())));
     return Promise.race([all, new Promise((r) => setTimeout(r, ms))]);
   }
+  // The hint starts as a huge line across the screen, holds, then shrinks into its corner.
+  function bigHint(delay) {
+    const r = hint.getBoundingClientRect();
+    const sc = (innerWidth * 0.94) / r.width;
+    const dx = innerWidth / 2 - (r.left + r.width / 2);
+    const dy = innerHeight / 2 - (r.top + r.height / 2);
+    const big = `translate(${dx}px, ${dy}px) scale(${sc})`;
+    hint.animate([
+      { transform: big, opacity: 0, offset: 0 },
+      { transform: big, opacity: 1, offset: 0.18 },
+      { transform: big, opacity: 1, offset: 0.55, easing: "cubic-bezier(.7,0,.2,1)" },
+      { transform: "none", opacity: 1, offset: 1 },
+    ], { duration: delay ? 2600 : 1, delay, fill: "backwards" })
+      .finished.then(() => setTimeout(() => { hintLocked = false; }, 2500));
+  }
+
   async function reveal() {
     const intro = $("#intro");
     const mobile = mq.matches;
@@ -616,9 +633,11 @@
       });
     }
     setTimeout(() => { body.classList.remove("loading"); intro.remove(); }, d + 150);
+    if (!mobile && body.classList.contains("r-home")) bigHint(reduce ? 0 : d + 250);
+    else hintLocked = false;
   }
 
-  fetch("site/data.json?v=202610141655")
+  fetch("site/data.json?v=202610141703")
     .then((r) => r.json())
     .then((data) => {
       S.data = data;

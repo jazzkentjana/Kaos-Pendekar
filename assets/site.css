@@ -39,17 +39,20 @@ body:not(.is-mobile) #mobile-view { display: none; }
 .brand img { width: 64px; height: 64px; transition: transform .35s cubic-bezier(.2,.8,.2,1); }
 .brand:hover img { transform: rotate(-8deg) scale(1.06); }
 .nav {
-  font-size: 12px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase;
-  color: var(--accent); text-decoration: none;
+  display: inline-flex; align-items: center; gap: 6px; height: 40px; padding: 0 20px;
+  border: 1.5px solid var(--accent); border-radius: 999px; background: var(--bg);
+  font-size: 14px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase;
+  color: var(--accent); text-decoration: none; transition: background .2s, color .2s;
 }
 .nav-left { justify-self: start; }
 .nav-right { justify-self: end; }
-.nav:hover { text-decoration: underline; text-underline-offset: 4px; }
-.count { color: var(--muted); font-weight: 500; }
+.nav:hover { background: var(--accent); color: var(--accent-ink); }
+.nav:hover .count { color: var(--accent-ink); opacity: .8; }
+.count { color: var(--muted); font-weight: 600; }
 body.r-product .topbar { display: none; }
 body.r-list .topbar { background: var(--bg); }
 .product:focus { outline: none; }
-body.r-list .nav-left::before { content: "← "; }
+body.r-list .nav-left::before { content: "←"; }
 
 /* ---------- Desktop canvas ---------- */
 #canvas-view { touch-action: none; }
@@ -75,11 +78,13 @@ body.r-list .nav-left::before { content: "← "; }
 .giant-hover.on { opacity: 1; transform: none; }
 
 .hint {
-  position: fixed; left: 22px; bottom: 18px; z-index: 34; margin: 0;
-  font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted);
-  transition: opacity .4s;
+  position: fixed; left: 22px; bottom: 18px; z-index: 34; margin: 0; padding: 5px 12px; border-radius: 999px;
+  background: rgba(255,255,255,.88); font-family: var(--display); font-size: 16px; letter-spacing: .05em;
+  text-transform: uppercase; color: var(--accent); white-space: nowrap; transform-origin: center;
+  transition: opacity .5s;
 }
 .hint.gone { opacity: 0; }
+body.loading .hint { opacity: 0; }
 
 .cursor {
   position: fixed; z-index: 60; left: 0; top: 0; width: 104px; height: 104px; margin: -52px 0 0 -52px;
@@ -253,6 +258,7 @@ body.r-list .nav-left::before { content: "← "; }
 
 @media (max-width: 767px) {
   :root { --bar-h: 76px; }
+  .nav { height: 34px; padding: 0 13px; font-size: 12px; }
   .topbar { padding: 0 16px; background: transparent; }
   .brand img { width: 52px; height: 52px; }
   .p-bar { padding: 0 16px; }
