@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Pendekar Juara — Kaos Meme Viral</title>
+<meta name="description" content="Kaos meme viral dari Pendekar Juara. Katun combed 30s, sablon DTF, S sampai XXXL. Beli di Shopee.">
+<meta property="og:title" content="Pendekar Juara — Kaos Meme Viral">
+<meta property="og:description" content="Kaos meme viral. Katun combed 30s, sablon DTF, S sampai XXXL.">
+<meta property="og:image" content="site/logo.webp">
+<meta name="theme-color" content="#ffffff">
+<link rel="icon" type="image/png" href="site/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+
+<!-- Shared top bar (homepage + catalog) -->
+<header class="topbar" id="topbar">
+  <a class="nav nav-left" href="#/katalog" data-nav="katalog">Katalog <span class="count" id="count"></span></a>
+  <a class="brand" href="#/" aria-label="Pendekar Juara, beranda">
+    <img src="site/logo.webp" alt="Pendekar Juara" width="64" height="64">
+  </a>
+  <a class="nav nav-right" id="shop-link" href="https://shopee.co.id/shop/269698445" target="_blank" rel="noopener">Shopee ↗</a>
+</header>
+
+<!-- Desktop homepage: draggable scattered canvas -->
+<main class="view" id="canvas-view" aria-label="Semua desain">
+  <div class="world" id="world"></div>
+  <div class="giant giant-hover" id="hover-title" aria-hidden="true"></div>
+  <p class="hint" id="hint">Geser untuk menjelajah · klik kaos untuk detail</p>
+</main>
+<div class="cursor" id="cursor" aria-hidden="true"><span>Lihat</span></div>
+
+<!-- Mobile homepage -->
+<main class="view" id="mobile-view" aria-label="Pendekar Juara">
+  <section class="m-hero">
+    <div class="m-float" id="m-float"></div>
+    <div class="m-hero-copy">
+      <h1 class="m-title">Kaos<br><span class="accent">meme</span><br>viral</h1>
+      <p class="m-sub">Dari video viral ke kaos. Katun combed 30s, sablon DTF, S sampai XXXL.</p>
+      <a class="btn-offset" href="#koleksi" id="m-cta">Lihat koleksi</a>
+    </div>
+  </section>
+  <section class="m-collection" id="koleksi">
+    <div class="m-sticky">
+      <div class="m-sticky-row">
+        <h2 class="m-h2">Koleksi</h2>
+        <a class="m-list-link" href="#/katalog">Daftar ☰</a>
+      </div>
+      <p class="m-meta"><span id="m-count"></span> desain · mulai Rp89rb</p>
+      <label class="search m-search">
+        <span class="sr">Cari desain</span>
+        <input type="search" id="m-search" placeholder="Cari kata, misal: mancing" autocomplete="off">
+      </label>
+    </div>
+    <div class="m-cards" id="m-cards"></div>
+    <p class="m-empty" id="m-empty" hidden>Belum ada desain yang cocok.</p>
+    <footer class="m-foot">
+      <a class="btn-offset" href="https://shopee.co.id/shop/269698445" target="_blank" rel="noopener">Kunjungi toko Shopee</a>
+      <p>Pendekar Juara · Jakarta</p>
+    </footer>
+  </section>
+</main>
+
+<!-- Catalog list -->
+<main class="view" id="list-view" aria-label="Katalog">
+  <div class="list-wrap">
+    <label class="search list-search">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5 21 21"/></svg>
+      <span class="sr">Cari desain</span>
+      <input type="search" id="list-search" placeholder="Cari judul, topik, atau kata di kaos" autocomplete="off">
+    </label>
+    <div class="list-head" role="row">
+      <span></span>
+      <button type="button" data-sort="hook">Desain</button>
+      <button type="button" data-sort="topic">Topik</button>
+      <button type="button" data-sort="date" class="active">Terbaru</button>
+    </div>
+    <div class="list-body" id="list-body"></div>
+    <p class="list-empty" id="list-empty" hidden>Belum ada desain yang cocok.</p>
+  </div>
+  <img class="list-peek" id="list-peek" alt="" aria-hidden="true">
+</main>
+
+<!-- Product page -->
+<section class="view product" id="product-view" aria-label="Detail kaos" tabindex="-1" hidden>
+  <div class="p-bar">
+    <button type="button" class="pill" id="p-info-btn" aria-expanded="false">Info</button>
+    <a class="pill pill-solid" id="p-buy" href="#" target="_blank" rel="noopener">Beli di Shopee</a>
+    <button type="button" class="p-close" id="p-close" aria-label="Tutup"></button>
+  </div>
+  <div class="p-stack" id="p-stack"></div>
+  <div class="giant giant-product" id="p-title"></div>
+  <aside class="p-info" id="p-info" aria-hidden="true">
+    <h2 id="i-hook"></h2>
+    <p class="i-topic" id="i-topic"></p>
+    <div class="i-block">
+      <h3>Warna</h3>
+      <div class="chips" id="i-colors" role="group" aria-label="Pilih warna">
+        <button type="button" data-color="all" class="on">Semua</button>
+        <button type="button" data-color="black">Hitam</button>
+        <button type="button" data-color="white">Putih</button>
+      </div>
+    </div>
+    <div class="i-block">
+      <h3>Harga</h3>
+      <table class="i-price"><tbody id="i-price"></tbody></table>
+    </div>
+    <div class="i-block">
+      <h3>Ukuran</h3>
+      <div class="chips static" id="i-sizes"></div>
+      <a class="i-chart" id="i-chart" href="#" target="_blank" rel="noopener">Lihat tabel ukuran ↗</a>
+    </div>
+    <div class="i-block">
+      <h3>Bahan</h3>
+      <p>Katun combed 30s reaktif · sablon DTF · unisex</p>
+    </div>
+    <div class="i-block">
+      <h3>Isi tulisan</h3>
+      <ol class="i-lines" id="i-lines"></ol>
+    </div>
+    <a class="btn-offset" id="i-buy" href="#" target="_blank" rel="noopener">Beli di Shopee</a>
+  </aside>
+</section>
+
+<script src="assets/site.js"></script>
+</body>
+</html>
